@@ -412,6 +412,7 @@
     {"name":"bgm_intro","order":2,"path":"sounds/bgm_intro/bgm_intro.yy",},
     {"name":"bgm_toriel_basement","order":1,"path":"sounds/bgm_toriel_basement/bgm_toriel_basement.yy",},
     {"name":"bgm_toriel_house","order":2,"path":"sounds/bgm_toriel_house/bgm_toriel_house.yy",},
+    {"name":"mus_ruins","order":3,"path":"sounds/mus_ruins/mus_ruins.yy",},
     {"name":"mus_settings","order":2,"path":"sounds/mus_settings/mus_settings.yy",},
     {"name":"snd_break_0","order":21,"path":"sounds/snd_break_0/snd_break_0.yy",},
     {"name":"snd_break_1","order":23,"path":"sounds/snd_break_1/snd_break_1.yy",},

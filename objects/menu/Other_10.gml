@@ -142,7 +142,7 @@ if(_menu==2){
 }
 
 if(_menu==3) {
-	//_menu=0;
+	_menu=0;
 	fader.color=c_white;
 	Fader_Fade(-1,1,290);
 	BGM_Play(2, snd_cymbal, false, 0);

@@ -12,12 +12,13 @@ switch(room){
 	break;
 	case room_ruins1:
 	soundstop = [mus_menu0,mus_settings,snd_cymbal]
+	sound = mus_ruins
 	break;
 	case room_area1:
-	soundstop = [mus_menu0,mus_settings,snd_cymbal]
+	soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
 	break;
 	case room_area2:
-	soundstop = [mus_menu0,mus_settings,snd_cymbal]
+	soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
 	break;
 }
 

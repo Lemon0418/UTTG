@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_item_equip",
+  "%Name":"mus_ruins",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.163991,
-  "name":"snd_item_equip",
+  "duration":91.87,
+  "name":"mus_ruins",
   "parent":{
-    "name":"SFX",
-    "path":"folders/Sounds/SFX.yy",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_item_equip",
+  "soundFile":"mus_ruins.ogg",
   "type":0,
   "volume":1.0,
 }

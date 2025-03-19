@@ -134,7 +134,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"undertale_engine",
   "resources":[
@@ -512,6 +512,7 @@
     {"id":{"name":"bgm_toriel_basement","path":"sounds/bgm_toriel_basement/bgm_toriel_basement.yy",},},
     {"id":{"name":"bgm_toriel_house","path":"sounds/bgm_toriel_house/bgm_toriel_house.yy",},},
     {"id":{"name":"mus_menu0","path":"sounds/mus_menu0/mus_menu0.yy",},},
+    {"id":{"name":"mus_ruins","path":"sounds/mus_ruins/mus_ruins.yy",},},
     {"id":{"name":"mus_settings","path":"sounds/mus_settings/mus_settings.yy",},},
     {"id":{"name":"snd_break_0","path":"sounds/snd_break_0/snd_break_0.yy",},},
     {"id":{"name":"snd_break_1","path":"sounds/snd_break_1/snd_break_1.yy",},},
