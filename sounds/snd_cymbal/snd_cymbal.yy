@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_menu_cancel",
+  "%Name":"snd_cymbal",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.726871,
-  "name":"snd_menu_cancel",
+  "duration":5.22449,
+  "name":"snd_cymbal",
   "parent":{
     "name":"SFX",
     "path":"folders/Sounds/SFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_menu_cancel",
+  "soundFile":"snd_cymbal.mp3",
   "type":0,
   "volume":1.0,
 }

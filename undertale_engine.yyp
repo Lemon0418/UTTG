@@ -134,7 +134,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"undertale_engine",
   "resources":[
@@ -515,6 +515,7 @@
     {"id":{"name":"mus_settings","path":"sounds/mus_settings/mus_settings.yy",},},
     {"id":{"name":"snd_break_0","path":"sounds/snd_break_0/snd_break_0.yy",},},
     {"id":{"name":"snd_break_1","path":"sounds/snd_break_1/snd_break_1.yy",},},
+    {"id":{"name":"snd_cymbal","path":"sounds/snd_cymbal/snd_cymbal.yy",},},
     {"id":{"name":"snd_damage","path":"sounds/snd_damage/snd_damage.yy",},},
     {"id":{"name":"snd_encounter_soul_move","path":"sounds/snd_encounter_soul_move/snd_encounter_soul_move.yy",},},
     {"id":{"name":"snd_exclamation","path":"sounds/snd_exclamation/snd_exclamation.yy",},},
@@ -561,6 +562,8 @@
     {"id":{"name":"spr_bg_area_2","path":"sprites/spr_bg_area_2/spr_bg_area_2.yy",},},
     {"id":{"name":"spr_block_corner","path":"sprites/spr_block_corner/spr_block_corner.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
+    {"id":{"name":"spr_border_outline","path":"sprites/spr_border_outline/spr_border_outline.yy",},},
+    {"id":{"name":"spr_border_ruins","path":"sprites/spr_border_ruins/spr_border_ruins.yy",},},
     {"id":{"name":"spr_border_simple","path":"sprites/spr_border_simple/spr_border_simple.yy",},},
     {"id":{"name":"spr_char_box","path":"sprites/spr_char_box/spr_char_box.yy",},},
     {"id":{"name":"spr_char_eggy_down","path":"sprites/spr_char_eggy_down/spr_char_eggy_down.yy",},},
