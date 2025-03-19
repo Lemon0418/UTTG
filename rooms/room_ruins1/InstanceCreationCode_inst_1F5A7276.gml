@@ -1,0 +1,1 @@
+text="* This beginning of ruins & fills you with Kindness"
