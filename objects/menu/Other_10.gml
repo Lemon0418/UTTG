@@ -143,9 +143,10 @@ if(_menu==2){
 
 if(_menu==3) {
 	_menu=0;
+	//она не нужна и так оказывается работает
 	fader.color=c_white;
-	BGM_Play(2,snd_cymbal,false,14.50);
-	soundstop = mus_menu0;
+	BGM_Play(2, snd_cymbal, false, /*что это делает*/0);
+	BGM_Stop(mus_menu0);
 	Fader_Fade(-1,1,240);
-	alarm[0]=240;
+	alarm[0]=320;
 }

@@ -14,24 +14,24 @@ draw_sprite_ext(spr_pixel,0,32+142,54+(_top ? 270 : 0),-4,108,0,c_white,1);
 draw_sprite_ext(spr_pixel,0,32+142+2,54+(_top ? 270 : 0),-2,108,0,c_black,1);
 draw_sprite_ext(spr_pixel,0,32+142-4,58+(_top ? 270 : 0),-2,100,0,c_black,1);
    
-draw_sprite_ext(spr_pixel,0,32+6,52+6+(_top ? 270 : 0),142-6*2,110-6*2,0,c_black,0.75);
+draw_sprite_ext(spr_pixel,0, 32+6, 52+6+(_top ? 270 : 0), 142-6*2, 110-6*2,0,c_black,0.75);
 
 draw_sprite_ext(spr_pixel,0,32,168,142,4,0,c_white,1);
 draw_sprite_ext(spr_pixel,0,32,168-2,142,2,0,c_black,1);
 draw_sprite_ext(spr_pixel,0,32,168+4,142,2,0,c_black,1);
 
-draw_sprite_ext(spr_pixel,0,32,162+148,142,4,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32,164+144,142,2,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32,162+152,142,2,0,c_black,1);
+draw_sprite_ext(spr_pixel,0,32,/**/142+148,142,4,0,c_white,1);
+draw_sprite_ext(spr_pixel,0,32,/**/144+144,142,2,0,c_black,1);
+draw_sprite_ext(spr_pixel,0,32,/**/142+152,142,2,0,c_black,1);
  
-draw_sprite_ext(spr_pixel,0,32,168,4,144,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32-2,168-2,2,150,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32+4,168+4,2,138,0,c_black,1);
+draw_sprite_ext(spr_pixel,0,32,168,4,/**/124,0,c_white,1);
+draw_sprite_ext(spr_pixel,0,32-2,168-2,2,/**/130,0,c_black,1);
+draw_sprite_ext(spr_pixel,0,32+4,168+4,2,/**/118,0,c_black,1);
   
-draw_sprite_ext(spr_pixel,0,32+138,168,4,144,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32+138+4,168-2,2,150,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32+138-2,168+4,2,138,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32+6,168+6,142-6*2,148-6*2,0,c_black,0.75);
+draw_sprite_ext(spr_pixel,0,32+138,168,4,/**/124,0,c_white,1);
+draw_sprite_ext(spr_pixel,0,32+138+4,168-2,2,/**/130,0,c_black,1);
+draw_sprite_ext(spr_pixel,0,32+138-2,168+4,2,/**/118,0,c_black,1);
+draw_sprite_ext(spr_pixel,0, 32+6, 168+6, 142-6*2, 128-6*2/**/, 0, c_black,0.75);
 /* а где это окно котрое менять надо короче я хз где что менять
 вопрос в том где здэс само окно */
 draw_set_font(font_crypt_of_tomorrow);
