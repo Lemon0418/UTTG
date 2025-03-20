@@ -26,6 +26,7 @@ if(_state==-1){
 	}
 }else if(_state==1){
 	if(Input_IsPressed(INPUT.CONFIRM)||Input_IsPressed(INPUT.CANCEL)){
+		event_user(0);
 		instance_destroy();
 	}
 }

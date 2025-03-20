@@ -404,7 +404,6 @@
     {"name":"Player_SetSpdItem","order":49,"path":"scripts/Player_SetSpdItem/Player_SetSpdItem.yy",},
     {"name":"Player_UpdateLv","order":11,"path":"scripts/Player_UpdateLv/Player_UpdateLv.yy",},
     {"name":"RegisterManager","order":13,"path":"scripts/RegisterManager/RegisterManager.yy",},
-    {"name":"Script290","order":19,"path":"scripts/Script290/Script290.yy",},
     {"name":"Storage_Custom_Dynamic","order":1,"path":"scripts/Storage_Custom_Dynamic/Storage_Custom_Dynamic.yy",},
     {"name":"Storage_Custom_Info","order":2,"path":"scripts/Storage_Custom_Info/Storage_Custom_Info.yy",},
     {"name":"Storage_Custom_Settings","order":3,"path":"scripts/Storage_Custom_Settings/Storage_Custom_Settings.yy",},

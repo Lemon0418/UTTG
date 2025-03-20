@@ -70,6 +70,9 @@ if(_state==1){
 	if(!room_exists(roomIndex)){
 		roomIndex=-1;
 	}
+	
+	// ne nihuya ne pon
+	
 	_inst_room.text=_prefix+"{color `yellow`}"+Player_GetRoomName(roomIndex);
 	
 	_inst_save=instance_create_depth(108+6+56,118+6+116,0,text_typer);

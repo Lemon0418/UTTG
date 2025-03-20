@@ -1,4 +1,5 @@
 Storage_GetStatic().ClearData();
+// что это делает
 var sDynamic=Storage_GetDynamic();
 sDynamic.ClearData();
 sDynamic.LoadFromFile();

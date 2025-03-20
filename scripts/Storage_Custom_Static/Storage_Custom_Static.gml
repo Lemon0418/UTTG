@@ -14,7 +14,7 @@ function Storage_Custom_Static(storages){
 	
 	// Flag compatibltlity zone provides a space for the legacy flag system.
 	// If you don't need it, remove the line below and remove the script Storage_FlagCompat
-	s.Register("flag_compat",new StorageZoneStruct());
+	s.Register("flag_compat",new StorageZoneStruct()); // по моему это флаг (используется для всяких ивентов)
 }
 
 function Storage_GetStatic(){
