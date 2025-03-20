@@ -7,7 +7,7 @@ switch(room){
 	sound = mus_settings;
 	break;
 	case room_menu:
-	soundstop = mus_settings;
+	soundstop = [mus_ruins,mus_settings]
 	sound = mus_menu0;
 	break;
 	case room_ruins1:
@@ -19,6 +19,9 @@ switch(room){
 	break;
 	case room_area2:
 	soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
+	break;
+	case room_credits:
+	soundstop = [mus_ruins]
 	break;
 }
 

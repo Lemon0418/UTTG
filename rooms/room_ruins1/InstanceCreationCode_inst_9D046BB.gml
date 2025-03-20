@@ -1,2 +1,2 @@
-target_room=room_ruins1;
-target_landmark=1;
+target_room=room_credits;
+target_landmark=0;
