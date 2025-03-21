@@ -1,2 +1,2 @@
-target_room=room_area1;
+target_room=room_area2;
 target_landmark=1;

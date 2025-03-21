@@ -26,8 +26,6 @@ switch (_bordertype) {
 	break;
 	case 4: text += "Dynamic";
 	break;
-	case 5: text += "Ruins";
-	break;
 }
 draw_text(20, 104, text);
 draw_set_color(c_white);

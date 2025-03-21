@@ -134,7 +134,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"undertale_engine",
   "resources":[
@@ -171,6 +171,7 @@
     {"id":{"name":"char_box","path":"objects/char_box/char_box.yy",},},
     {"id":{"name":"char_player","path":"objects/char_player/char_player.yy",},},
     {"id":{"name":"char_save","path":"objects/char_save/char_save.yy",},},
+    {"id":{"name":"char_sign_dialogue","path":"objects/char_sign_dialogue/char_sign_dialogue.yy",},},
     {"id":{"name":"char_sign","path":"objects/char_sign/char_sign.yy",},},
     {"id":{"name":"char","path":"objects/char/char.yy",},},
     {"id":{"name":"closed_captions","path":"objects/closed_captions/closed_captions.yy",},},
@@ -217,6 +218,7 @@
     {"id":{"name":"room_logo","path":"rooms/room_logo/room_logo.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"room_ruins1","path":"rooms/room_ruins1/room_ruins1.yy",},},
+    {"id":{"name":"room_ruins2","path":"rooms/room_ruins2/room_ruins2.yy",},},
     {"id":{"name":"room_settings","path":"rooms/room_settings/room_settings.yy",},},
     {"id":{"name":"room_shop","path":"rooms/room_shop/room_shop.yy",},},
     {"id":{"name":"Anim_Create","path":"scripts/Anim_Create/Anim_Create.yy",},},
@@ -626,6 +628,7 @@
     {"id":{"name":"spr_pixel","path":"sprites/spr_pixel/spr_pixel.yy",},},
     {"id":{"name":"spr_quittingmessage","path":"sprites/spr_quittingmessage/spr_quittingmessage.yy",},},
     {"id":{"name":"spr_trigger","path":"sprites/spr_trigger/spr_trigger.yy",},},
+    {"id":{"name":"Sprite83","path":"sprites/Sprite83/Sprite83.yy",},},
     {"id":{"name":"tile_ruins","path":"tilesets/tile_ruins/tile_ruins.yy",},},
   ],
   "resourceType":"GMProject",
@@ -643,6 +646,7 @@
     {"roomId":{"name":"room_ruins1","path":"rooms/room_ruins1/room_ruins1.yy",},},
     {"roomId":{"name":"room_area2","path":"rooms/room_area2/room_area2.yy",},},
     {"roomId":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
+    {"roomId":{"name":"room_ruins2","path":"rooms/room_ruins2/room_ruins2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

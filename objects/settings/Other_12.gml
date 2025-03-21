@@ -5,9 +5,7 @@ switch (_bordertype) {
 	break;
 	case 3: Border_SetSprite(spr_border_intro);
 	break;
-	case 4:
-	break;
-	case 5: Border_SetSprite(spr_border_ruins);
+	case 4: Border_SetSprite(spr_border_simple);
 	break;
 }
 
