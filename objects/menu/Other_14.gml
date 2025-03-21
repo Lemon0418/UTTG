@@ -1,4 +1,4 @@
-
+/*
 var text="";
 var valid=true;
 switch(string_lower(_naming_name)){

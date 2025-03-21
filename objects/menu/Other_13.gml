@@ -1,4 +1,4 @@
-
+/*
 _change_inst=_inst_naming_letters;
 _change_color=c_white;
 event_user(1);

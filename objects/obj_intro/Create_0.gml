@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth=-1996
+depth=-99;
 image_index=0
 spd="{skippable false}{speed 2.7}{voice 1}{sleep 10}";
 /*if Flag_Get(FLAG_TYPE.DYNAMIC,FLAG_DYNAMIC.LANGUAGE)==1{

@@ -26,7 +26,15 @@ if(keyboard_check_pressed(vk_f2)){
 	game_restart();
 }
 
-if(keyboard_check_pressed(vk_f4)&&!keyboard_check(vk_alt)&&!keyboard_check(vk_control)&&!keyboard_check(vk_shift)){
+if(keyboard_check_pressed(vk_f4)&&!keyboard_check(vk_alt)&&!keyboard_check(vk_control)&&!keyboard_check(vk_shift)) 
 	window_set_fullscreen(!window_get_fullscreen());
-	//display_set_gui_maximize();
+
+
+if (_canquit) {
+    if keyboard_check(vk_escape) {
+        _quit++;
+        if (!instance_exists(quittingmessage)) 
+			instance_create_depth(0, 0, -999, quittingmessage);
+    }
+    else _quit = 0;
 }

@@ -101,7 +101,7 @@
     {"$GMFolder":"","%Name":"PS4","folderPath":"folders/Sprites/Gamepad/PS4.yy","name":"PS4","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Large","folderPath":"folders/Sprites/Gamepad/PS4/Large.yy","name":"Large","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Small","folderPath":"folders/Sprites/Gamepad/PS4/Small.yy","name":"Small","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"intro","folderPath":"folders/Sprites/intro.yy","name":"intro","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Intro","folderPath":"folders/Sprites/Intro.yy","name":"Intro","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
@@ -134,7 +134,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"undertale_engine",
   "resources":[
@@ -193,6 +193,7 @@
     {"id":{"name":"obj_intro_window","path":"objects/obj_intro_window/obj_intro_window.yy",},},
     {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},},
     {"id":{"name":"obj_whitefader","path":"objects/obj_whitefader/obj_whitefader.yy",},},
+    {"id":{"name":"quittingmessage","path":"objects/quittingmessage/quittingmessage.yy",},},
     {"id":{"name":"settings","path":"objects/settings/settings.yy",},},
     {"id":{"name":"shaker","path":"objects/shaker/shaker.yy",},},
     {"id":{"name":"text_single","path":"objects/text_single/text_single.yy",},},
@@ -623,6 +624,7 @@
     {"id":{"name":"spr_intro","path":"sprites/spr_intro/spr_intro.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_pixel","path":"sprites/spr_pixel/spr_pixel.yy",},},
+    {"id":{"name":"spr_quittingmessage","path":"sprites/spr_quittingmessage/spr_quittingmessage.yy",},},
     {"id":{"name":"spr_trigger","path":"sprites/spr_trigger/spr_trigger.yy",},},
     {"id":{"name":"tile_ruins","path":"tilesets/tile_ruins/tile_ruins.yy",},},
   ],
