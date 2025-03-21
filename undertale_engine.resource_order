@@ -300,6 +300,7 @@
     {"name":"FileUtils","order":18,"path":"scripts/FileUtils/FileUtils.yy",},
     {"name":"Game_GetFrameSkip","order":3,"path":"scripts/Game_GetFrameSkip/Game_GetFrameSkip.yy",},
     {"name":"Game_SetFrameSkip","order":1,"path":"scripts/Game_SetFrameSkip/Game_SetFrameSkip.yy",},
+    {"name":"GAMESTART_Custom","order":21,"path":"scripts/GAMESTART_Custom/GAMESTART_Custom.yy",},
     {"name":"GetColorFromString","order":16,"path":"scripts/GetColorFromString/GetColorFromString.yy",},
     {"name":"GetObjectBase","order":17,"path":"scripts/GetObjectBase/GetObjectBase.yy",},
     {"name":"Input_Bind","order":3,"path":"scripts/Input_Bind/Input_Bind.yy",},

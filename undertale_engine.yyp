@@ -393,6 +393,7 @@
     {"id":{"name":"FileUtils","path":"scripts/FileUtils/FileUtils.yy",},},
     {"id":{"name":"Game_GetFrameSkip","path":"scripts/Game_GetFrameSkip/Game_GetFrameSkip.yy",},},
     {"id":{"name":"Game_SetFrameSkip","path":"scripts/Game_SetFrameSkip/Game_SetFrameSkip.yy",},},
+    {"id":{"name":"GAMESTART_Custom","path":"scripts/GAMESTART_Custom/GAMESTART_Custom.yy",},},
     {"id":{"name":"GetColorFromString","path":"scripts/GetColorFromString/GetColorFromString.yy",},},
     {"id":{"name":"GetObjectBase","path":"scripts/GetObjectBase/GetObjectBase.yy",},},
     {"id":{"name":"Input_Bind","path":"scripts/Input_Bind/Input_Bind.yy",},},

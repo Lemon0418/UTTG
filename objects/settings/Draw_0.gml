@@ -4,14 +4,30 @@ draw_text(96, 18, "SETTINGS");
 
 draw_set_font(Lang_GetFont(Lang_GetString("font.menu.0")));
 
-if (mybutton == 0) draw_set_color(c_yellow);
+if (_mybutton == 0) draw_set_color(c_yellow);
 draw_text(20, 44, "EXIT");
 draw_set_color(c_white);
 
-if (mybutton == 1) draw_set_color(c_yellow);
-draw_text(20, 74, "LANGUAGE: ENGLISH");
+if (_mybutton == 1) draw_set_color(c_yellow);
+draw_text(20, 74, "LANGUAGE  ENGLISH");
 draw_set_color(c_white);
 
-if (mybutton == 2) draw_set_color(c_yellow);
-draw_text(20, 104,"Borders: Activated");
+if (_mybutton == 2) draw_set_color(c_yellow);
+var text = "BORDER    ";
+
+switch (_bordertype) {
+	case 0: text = "NO BORDERS";
+	break;
+	case 1: text += "Simple";
+	break;
+	case 2: text += "Fancy"
+	break;
+	case 3: text += "Sepia";
+	break;
+	case 4: text += "Dynamic";
+	break;
+	case 5: text += "Ruins";
+	break;
+}
+draw_text(20, 104, text);
 draw_set_color(c_white);

@@ -1,0 +1,1 @@
+if (global.border != 0) Border_SetEnabled(true);

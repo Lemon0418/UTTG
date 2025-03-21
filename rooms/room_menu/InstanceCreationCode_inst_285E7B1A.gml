@@ -1,1 +1,1 @@
-sprite=spr_border_intro;
+sprite=spr_border_simple;
