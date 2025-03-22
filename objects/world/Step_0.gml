@@ -26,9 +26,9 @@ if(keyboard_check_pressed(vk_f2)){
 	game_restart();
 }
 
-if(keyboard_check_pressed(vk_f4)&&!keyboard_check(vk_alt)&&!keyboard_check(vk_control)&&!keyboard_check(vk_shift)) 
+if(keyboard_check_pressed(vk_f4)) {
 	window_set_fullscreen(!window_get_fullscreen());
-
+}
 
 if (_canquit) {
     if keyboard_check(vk_escape) {

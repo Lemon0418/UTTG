@@ -8,3 +8,7 @@ if (Input_IsPressed(INPUT.CONFIRM)) {
 		if (_bordertype > _maxbordertype) _bordertype = 0;
 	}
 }
+
+/*if (keyboard_check_pressed(vk_f4)) {
+	window_set_fullscreen(!window_get_fullscreen());
+}
