@@ -1,5 +1,9 @@
 var proc=0;
 //cmove = true;
+
+var hmove = true;
+var vmove = true;
+
 repeat(4){
 	if(move[proc]>0){
 		if(!dir_locked){
