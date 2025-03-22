@@ -1,0 +1,1 @@
+text="* Unfortunately, the puzzle & doesn't work, but there is a & workaround. "

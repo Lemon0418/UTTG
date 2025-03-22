@@ -83,6 +83,7 @@
     {"name":"char_box","order":8,"path":"objects/char_box/char_box.yy",},
     {"name":"char_player","order":3,"path":"objects/char_player/char_player.yy",},
     {"name":"char_save","order":7,"path":"objects/char_save/char_save.yy",},
+    {"name":"char_sign_dialogue","order":9,"path":"objects/char_sign_dialogue/char_sign_dialogue.yy",},
     {"name":"char_sign","order":5,"path":"objects/char_sign/char_sign.yy",},
     {"name":"char","order":1,"path":"objects/char/char.yy",},
     {"name":"closed_captions","order":11,"path":"objects/closed_captions/closed_captions.yy",},
@@ -124,6 +125,7 @@
     {"name":"room_logo","order":1,"path":"rooms/room_logo/room_logo.yy",},
     {"name":"room_menu","order":2,"path":"rooms/room_menu/room_menu.yy",},
     {"name":"room_ruins1","order":2,"path":"rooms/room_ruins1/room_ruins1.yy",},
+    {"name":"room_ruins2","order":5,"path":"rooms/room_ruins2/room_ruins2.yy",},
     {"name":"room_settings","order":5,"path":"rooms/room_settings/room_settings.yy",},
     {"name":"room_shop","order":4,"path":"rooms/room_shop/room_shop.yy",},
     {"name":"Anim_Create","order":3,"path":"scripts/Anim_Create/Anim_Create.yy",},
@@ -523,6 +525,7 @@
     {"name":"spr_pixel","order":7,"path":"sprites/spr_pixel/spr_pixel.yy",},
     {"name":"spr_quittingmessage","order":14,"path":"sprites/spr_quittingmessage/spr_quittingmessage.yy",},
     {"name":"spr_trigger","order":6,"path":"sprites/spr_trigger/spr_trigger.yy",},
+    {"name":"Sprite83","order":4,"path":"sprites/Sprite83/Sprite83.yy",},
     {"name":"tile_ruins","order":1,"path":"tilesets/tile_ruins/tile_ruins.yy",},
   ],
 }
