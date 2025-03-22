@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_char_template",
-    "path":"sprites/spr_char_template/spr_char_template.yy",
+    "name":"spr_char_eggy_down",
+    "path":"sprites/spr_char_eggy_down/spr_char_eggy_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

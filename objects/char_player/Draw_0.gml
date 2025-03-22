@@ -1,5 +1,5 @@
 draw_set_color(c_blue);
-draw_rectangle(bbox_right, bbox_top, bbox_left, bbox_bottom, false);
+//draw_rectangle(bbox_right, bbox_top, bbox_left, bbox_bottom, false);
 
 draw_self();
 
