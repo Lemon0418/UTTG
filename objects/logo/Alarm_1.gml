@@ -1,1 +1,1 @@
-//TODO
+game_restart();

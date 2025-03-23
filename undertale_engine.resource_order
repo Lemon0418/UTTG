@@ -101,6 +101,7 @@
     {"name":"logo","order":18,"path":"objects/logo/logo.yy",},
     {"name":"menu","order":19,"path":"objects/menu/menu.yy",},
     {"name":"o_credits","order":26,"path":"objects/o_credits/o_credits.yy",},
+    {"name":"obj_intro_fader","order":3,"path":"objects/obj_intro_fader/obj_intro_fader.yy",},
     {"name":"obj_intro_last","order":2,"path":"objects/obj_intro_last/obj_intro_last.yy",},
     {"name":"obj_intro_window","order":1,"path":"objects/obj_intro_window/obj_intro_window.yy",},
     {"name":"obj_whitefader","order":22,"path":"objects/obj_whitefader/obj_whitefader.yy",},

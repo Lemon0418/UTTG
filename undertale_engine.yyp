@@ -134,7 +134,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"undertale_engine",
   "resources":[
@@ -190,6 +190,7 @@
     {"id":{"name":"logo","path":"objects/logo/logo.yy",},},
     {"id":{"name":"menu","path":"objects/menu/menu.yy",},},
     {"id":{"name":"o_credits","path":"objects/o_credits/o_credits.yy",},},
+    {"id":{"name":"obj_intro_fader","path":"objects/obj_intro_fader/obj_intro_fader.yy",},},
     {"id":{"name":"obj_intro_last","path":"objects/obj_intro_last/obj_intro_last.yy",},},
     {"id":{"name":"obj_intro_window","path":"objects/obj_intro_window/obj_intro_window.yy",},},
     {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},},
