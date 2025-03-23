@@ -1,1 +1,2 @@
-text="* Unfortunately, the puzzle & doesn't work, but there is a & workaround. "
+if (global.language == 2) text ="* Unfortunately, the puzzle & doesn't work, but there is a & workaround. "
+else if (global.language == 1) text ="* К сожелению пазлы не & работают благо есть & обходной путь";

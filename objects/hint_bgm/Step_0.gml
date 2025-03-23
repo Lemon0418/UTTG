@@ -23,6 +23,12 @@ switch(room){
 	case room_credits:
 	soundstop = [mus_ruins]
 	break;
+	case room_pre_sewers:
+	soundstop = [mus_ruins]
+	break;
+	case room_ruins2:
+	sound = mus_ruins
+	break;
 }
 
 if (sound != noone){
