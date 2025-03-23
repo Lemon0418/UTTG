@@ -2,6 +2,8 @@ function GAMESTART_Custom() {
 	ini_open("settings.ini")
 		global.enabled_dynamic_border = ini_read_real("BORDER", "EnableDynamic", false);
 		global.border = ini_read_real("BORDER", "BorderType", 0);
+		
+		global.language = ini_read_real("SETTINGS", "Language", 0);
 	ini_close();
 	
 	if (global.border == 0) border._enabled = false;

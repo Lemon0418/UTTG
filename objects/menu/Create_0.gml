@@ -1,7 +1,7 @@
 _menu=0;
 _mode=0;
-
-_prefix="{gui true}{instant true}{shadow false}{outline true}{font 1}{scale 2}";
+//
+_prefix="{gui true}{instant true}{shadow false}{outline true}{color_outline `black`}{font 1}{scale 2}";
 _inst_instruction=noone;
 _inst_begin=noone;
 _inst_settings=noone;

@@ -34,7 +34,7 @@ draw_sprite_ext(spr_pixel,0,32+138-2,168+4,2,/**/118,0,c_black,1);
 draw_sprite_ext(spr_pixel,0, 32+6, 168+6, 142-6*2, 128-6*2/**/, 0, c_black,0.75);
 /* а где это окно котрое менять надо короче я хз где что менять
 вопрос в том где здэс само окно */
-draw_set_font(font_crypt_of_tomorrow);
+draw_set_font(fnt_small);
 draw_set_color(c_white);
 draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"LV  "+string(Player_GetLv())+"\nHP  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nG   "+string(Player_GetGold()),9,-1,2,2,0);
 

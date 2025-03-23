@@ -105,6 +105,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"loc_base.csv","CopyToMask":-1,"filePath":"datafiles","name":"loc_base.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"font.txt","CopyToMask":-1,"filePath":"datafiles/locale/english","name":"font.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"determination_mono.ini","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"determination_mono.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"determination_mono.ttf","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"determination_mono.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -138,8 +139,10 @@
   },
   "name":"undertale_engine",
   "resources":[
-    {"id":{"name":"font_crypt_of_tomorrow","path":"fonts/font_crypt_of_tomorrow/font_crypt_of_tomorrow.yy",},},
-    {"id":{"name":"font_mars_needs_cunnilingus","path":"fonts/font_mars_needs_cunnilingus/font_mars_needs_cunnilingus.yy",},},
+    {"id":{"name":"fnt_curs","path":"fonts/fnt_curs/fnt_curs.yy",},},
+    {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},},
+    {"id":{"name":"fnt_maintext","path":"fonts/fnt_maintext/fnt_maintext.yy",},},
+    {"id":{"name":"fnt_small","path":"fonts/fnt_small/fnt_small.yy",},},
     {"id":{"name":"battle_board","path":"objects/battle_board/battle_board.yy",},},
     {"id":{"name":"battle_bullet","path":"objects/battle_bullet/battle_bullet.yy",},},
     {"id":{"name":"battle_button_act","path":"objects/battle_button_act/battle_button_act.yy",},},
@@ -505,6 +508,7 @@
     {"id":{"name":"Player_SetSpdItem","path":"scripts/Player_SetSpdItem/Player_SetSpdItem.yy",},},
     {"id":{"name":"Player_UpdateLv","path":"scripts/Player_UpdateLv/Player_UpdateLv.yy",},},
     {"id":{"name":"RegisterManager","path":"scripts/RegisterManager/RegisterManager.yy",},},
+    {"id":{"name":"scr_localization","path":"scripts/scr_localization/scr_localization.yy",},},
     {"id":{"name":"Storage_Custom_Dynamic","path":"scripts/Storage_Custom_Dynamic/Storage_Custom_Dynamic.yy",},},
     {"id":{"name":"Storage_Custom_Info","path":"scripts/Storage_Custom_Info/Storage_Custom_Info.yy",},},
     {"id":{"name":"Storage_Custom_Settings","path":"scripts/Storage_Custom_Settings/Storage_Custom_Settings.yy",},},
