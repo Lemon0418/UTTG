@@ -34,7 +34,12 @@ function Item_Custom(){
 		// See CustomItem_PhoneTML for phone item example.
 		#macro ITEM_PHONE_TML "phone_tml"
 		itemTypes.Register(ITEM_PHONE_TML, new CustomItem_Phone_TML());
-	
+		
+		#macro ITEM_STAINED_APRON "stained_apron"
+		itemTypes.Register(ITEM_STAINED_APRON, new CustomItem_StainedApron());
+		
+		#macro ITEM_BURNT_PAN "burnt_pan"
+		itemTypes.Register(ITEM_BURNT_PAN, new CustomItem_BurntPan());
 	}
 	
 	

@@ -52,6 +52,8 @@ if(_menu==0){
 				}else{
 					show_message($"ERROR:\nAttempt to goto an unexisting room {roomName}");
 				}
+				Player_SetItemArmor(ITEM_STAINED_APRON);
+				Player_SetItemWeapon(ITEM_BURNT_PAN);
 			}else if(_choice==1){
 				_menu=2;
 				var z=Storage_GetInfoGeneral();

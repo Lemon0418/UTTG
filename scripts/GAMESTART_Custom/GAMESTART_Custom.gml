@@ -1,5 +1,7 @@
 function GAMESTART_Custom() {
 	//csv_load_ext(global.translate_grid);
+	Player_SetItemArmor(ITEM_STAINED_APRON);
+	Player_SetItemWeapon(ITEM_BURNT_PAN);
 	
 	ini_open("settings.ini")
 		global.enabled_dynamic_border = ini_read_real("BORDER", "EnableDynamic", false);
