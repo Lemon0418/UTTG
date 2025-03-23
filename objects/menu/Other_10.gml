@@ -2,7 +2,7 @@
 if(_menu==0){
 	var s=Storage_GetInfo();
 	_mode=s.IsFileExists()?1:0;
-	if(_mode==0){
+	if(_mode==0) {
 		_inst_instruction=instance_create_depth(140,40,0,text_typer);
 		_inst_instruction.text=_prefix+"{color_text `gray_light`} " + get_translate(global.translate_grid, "menu.instruction");
 		 _inst_begin=instance_create_depth(170,344,0,text_typer);
