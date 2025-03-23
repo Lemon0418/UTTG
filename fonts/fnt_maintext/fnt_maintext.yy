@@ -10,7 +10,7 @@
   "charset":0,
   "first":0,
   "fontName":"Determination (8-bit oper. JVE)",
-  "glyphOperations":1,
+  "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":17,"offset":0,"shift":8,"w":8,"x":2,"y":2,},
     "33":{"character":33,"h":17,"offset":0,"shift":8,"w":4,"x":55,"y":78,},

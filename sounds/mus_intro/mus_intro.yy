@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"bgm_intro",
+  "%Name":"mus_intro",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":89.03325,
-  "name":"bgm_intro",
+  "name":"mus_intro",
   "parent":{
     "name":"BGM",
     "path":"folders/Sounds/BGM.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_intro.mp3",
+  "soundFile":"mus_intro.mp3",
   "type":0,
   "volume":1.0,
 }

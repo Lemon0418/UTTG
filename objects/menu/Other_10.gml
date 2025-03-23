@@ -18,9 +18,9 @@ if(_menu==0){
 		s.LoadFromFile();
 		var z=Storage_GetInfoGeneral();
 		_inst_name=instance_create_depth(140,124,0,text_typer);
-		_inst_name.text=_prefix+z.Get(FLAG_INFO_NAME,Lang_GetString("ui.save.name.empty"));
+		_inst_name.text=_prefix+get_translate(global.translate_grid, "player.name");
 		_inst_lv=instance_create_depth(308,124,0,text_typer);
-		_inst_lv.text=_prefix+$"LV {z.Get(FLAG_INFO_LV,0)}";
+		_inst_lv.text=_prefix+get_translate(global.translate_grid, "save.lvl")+$" {z.Get(FLAG_INFO_LV,0)}";
 		_inst_time=instance_create_depth(452,124,0,text_typer);
 		var time=z.Get(FLAG_INFO_TIME,0);
 		var minute=floor(time/60);

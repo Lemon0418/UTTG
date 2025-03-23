@@ -12,15 +12,15 @@ if(_menu==1){
 	}
 	if(!instance_exists(_inst_item_use)){
 		_inst_item_use=instance_create_depth(188+6+38,52+6+302,0,text_typer);
-		_inst_item_use.text=_prefix+Lang_GetString("ui.menu.item.use");
+		_inst_item_use.text=_prefix+get_translate(global.translate_grid, "menu.use");
 	}
 	if(!instance_exists(_inst_item_info)){
 		_inst_item_info=instance_create_depth(188+6+134,52+6+302,0,text_typer);
-		_inst_item_info.text=_prefix+Lang_GetString("ui.menu.item.info");
+		_inst_item_info.text=_prefix+get_translate(global.translate_grid, "menu.info");
 	}
 	if(!instance_exists(_inst_item_drop)){
 		_inst_item_drop=instance_create_depth(188+6+248,52+6+302,0,text_typer);
-		_inst_item_drop.text=_prefix+Lang_GetString("ui.menu.item.drop");
+		_inst_item_drop.text=_prefix+get_translate(global.translate_grid, "menu.drop");
 	}
 }else{
 	if(_menu!=2){
@@ -41,7 +41,7 @@ if(_menu==1){
 
 if(_menu==3){
 	if(!instance_exists(_inst_stat_0)){
-		_inst_stat_0=instance_create_depth(188+6+22,52+6+26,0,text_typer);
+		_inst_stat_0=instance_create_depth(188+6+22,52+6+24,0,text_typer);
 		var name=Player_GetName();
 		var lv=Player_GetLv();
 		var hp=Player_GetHp();
@@ -54,15 +54,27 @@ if(_menu==3){
 		var weapon=itemTypeManager.GetNameOrFallback(Player_GetItemWeapon());
 		var armor=itemTypeManager.GetNameOrFallback(Player_GetItemArmor());
 		var gold=Player_GetGold();
-		_inst_stat_0.text=_prefix+"{define `NAME` `"+name+"`}{define `LV` "+string(lv)+"}{define `HP` "+string(hp)+"}{define `HP_MAX` "+string(hp_max)+"}{define `ATK` "+string(atk)+"}{define `ATK_ITEM` "+string(atk_item)+"}{define `DEF` "+string(def)+"}{define `DEF_ITEM` "+string(def_item)+"}{define `WEAPON` `"+weapon+"`}{define `ARMOR` `"+armor+"`}{define `GOLD` "+string(gold)+"}"+Lang_GetString("ui.menu.stat.0");
+		_inst_stat_0.text=_prefix+
+		"\""+get_translate(global.translate_grid, "player.name")+"\"&&"+
+		get_translate(global.translate_grid, "save.lvl")+" "+string(lv)+"&"+
+		get_translate(global.translate_grid, "player.hp")+" "+string(hp)+"/"+string(hp_max)+ "&&"+
+		get_translate(global.translate_grid, "menu.atk")+" "+string(atk)+"("+string(atk_item)+")&"+
+		get_translate(global.translate_grid, "menu.def")+" "+string(def)+"("+string(def_item)+")&&"+
+		get_translate(global.translate_grid, "menu.weapon")+weapon+"&"+
+		get_translate(global.translate_grid, "menu.armor")+armor+"&"+
+		get_translate(global.translate_grid, "menu.gold")+string(gold);
+		//if (gold <= 0) _inst_stat_0.text+=" (БОМЖАРА!)"
 	}
 	if(!instance_exists(_inst_stat_1)){
-		_inst_stat_1=instance_create_depth(188+6+190,52+6+182,0,text_typer);
+		_inst_stat_1=instance_create_depth(188+6+190,52+6+194,0,text_typer);
 		var xp=Player_GetExp();
 		var lv=Player_GetLv();
 		var lv_xp=Player_GetLvExp(lv+1);
 		var kills=Player_GetKills();
-		_inst_stat_1.text=_prefix+"{define `EXP` "+string(xp)+"}{define `EXP_NEXT` "+(lv_xp!=-1 ? string(lv_xp-xp) : "`N/A`")+"}"+Lang_GetString("ui.menu.stat.1")+(kills>0 ? "{define `KILLS` "+string(kills)+"}"+Lang_GetString("ui.menu.stat.2") : "");
+		_inst_stat_1.text=_prefix+
+		get_translate(global.translate_grid, "menu.exp")+string(xp)+"&"+
+		get_translate(global.translate_grid, "menu.next_exp")+string(lv_xp)+"&&&&"+
+		get_translate(global.translate_grid, "menu.kills")+string(kills);
 	}
 }else{
 	if(instance_exists(_inst_stat_0)){

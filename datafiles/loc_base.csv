@@ -6,7 +6,6 @@ menu.settings;Настройки;Settings;German need words
 menu.contunie;Продолжить;Contunie;German need words
 menu.instruction;--- Инструкция ---{space_y -1}&&{space_y 2}[Z or ENTER] - Подтвердить&[X or SHIFT] - Отменить&[C or CTRL] - Меню&[F4] - На весь экран&[Hold ESC] - Выйти&Если ОЗ достигнет 0,&вы проиграете.;--- Instruction ---{space_y -1}&&{space_y 2}[Z or ENTER] - Confirm&[X or SHIFT] - Cancel&[C or CTRL] - Menu (In-game)&[F4] - Fullscreen&[Hold ESC] - Quit&When HP is 0, you lose.;German need words
 
-
 settings.title;НАСТРОЙКИ;SETTINGS;German need words
 settings.exit;ВЫХОД;EXIT;German need words
 settings.language_text;ЯЗЫК        ;LANGUAGE    ;German need words
@@ -16,3 +15,28 @@ settings.border1;Простая;Simple;German need words
 settings.border2;Прозрачная;Fancy;German need words
 settings.border3;Сепия;Sepia;German need words
 settings.border4;Динамичный;Dynamic;German need words
+
+
+player.name;ЭГГИ;EGGY;German need words
+player.maxhp;МАКС ОЗ;MAX HP;MAX HP
+player.hp;ОЗ;HP;HP
+
+save.lvl;УР;LV;LV
+save.save;Сохр;Save;German need words
+save.return;Вернуться;Return;German need words
+save.saved;Сохранено.;File Saved.;German need words
+save.roomname0;Руины - Начало;Ruins - Entrance;German need words
+
+menu.item;ВЕЩИ;ITEM;ITEM
+menu.stat;СТАТ;STAT;STAT
+menu.use;ИСП;USE;USE
+menu.info;ИНФО;INFO;INFO
+menu.drop;ВЫБР;DROP;DROP
+menu.atk;АТ;AT;AT
+menu.def;ЗЩ;DF;DF
+menu.weapon;ОРУЖИЕ:;WEAPON:;WEAPON:
+menu.armor;БРОНЯ:;ARMOR:;ARMOR:
+menu.gold;МОНЕТЫ:;GOLD:;GOLD:
+menu.exp;ОПТ:;EXP:;EXP:
+menu.next_exp;СЛЕД:;NEXT:;NEXT:
+menu.kills;УБИТЫ:;KILLS:;KILLS:

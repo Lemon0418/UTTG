@@ -26,6 +26,6 @@ pressed = false;
 timer = 0;
 t = noone;
 
-BGM_Play(2, bgm_intro, false, 14.50);
+BGM_Play(2, mus_intro, false, 14.50);
 BGM_SetPitch(2, 0.99);
 instance_create_depth(0, 0, 0, fader);

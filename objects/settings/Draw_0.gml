@@ -1,8 +1,8 @@
 var text = "";
 
 draw_set_color(c_white);
-draw_set_font(fnt_maintext);
-draw_text(96, 18, get_translate(global.translate_grid, "settings.title"));
+draw_set_font(fnt_main);
+draw_text(96, 10, get_translate(global.translate_grid, "settings.title"));
 
 draw_set_font(fnt_maintext);
 

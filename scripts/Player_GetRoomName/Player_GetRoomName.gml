@@ -9,7 +9,7 @@ function Player_GetRoomName() {
 			name="--";
 			break;
 			case room_ruins1:
-			name="ruins entrace";
+			name=get_translate(global.translate_grid, "save.roomname0");
 			break;
 	}
 	return name;
