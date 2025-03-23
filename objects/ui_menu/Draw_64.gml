@@ -36,7 +36,8 @@ draw_sprite_ext(spr_pixel,0, 32+6, 168+6, 142-6*2, 128-6*2/**/, 0, c_black,0.75)
 вопрос в том где здэс само окно */
 draw_set_font(fnt_small);
 draw_set_color(c_white);
-draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"LV  "+string(Player_GetLv())+"\nHP  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nG   "+string(Player_GetGold()),9,-1,2,2,0);
+if (global.language == 2) draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"LV  "+string(Player_GetLv())+"\nHP  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nG   "+string(Player_GetGold()),9,-1,2,2,0);
+else if (global.language == 1) draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"УР  "+string(Player_GetLv())+"\nОЗ  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nМ   "+string(Player_GetGold()),9,-1,2,2,0);
 
 if(_menu==0){
   draw_sprite(spr_battle_soul_red,0,32+6+27,168+6+31+36*_choice);

@@ -15,31 +15,31 @@ ds_map_add(_map_macro,"VOICE.NULL",-1);
 ds_map_add(_map_macro,"VOICE.DEFAULT",0);
 ds_map_add(_map_macro,"VOICE.TYPER",1);
 
-_group_font[0,0]=Lang_GetFont(Lang_GetString("font.dialog.0"));
+_group_font[0,0]=fnt_maintext;
 _group_font_scale_x[0,0]=real(Lang_GetString("font.dialog.0.scale.x"));
 _group_font_scale_y[0,0]=real(Lang_GetString("font.dialog.0.scale.y"));
 _group_font_space_x[0,0]=real(Lang_GetString("font.dialog.0.space.x"));
-_group_font[0,1]=Lang_GetFont(Lang_GetString("font.dialog.1"));
+_group_font[0,1]=fnt_maintext;
 _group_font_scale_x[0,1]=real(Lang_GetString("font.dialog.1.scale.x"));
 _group_font_scale_y[0,1]=real(Lang_GetString("font.dialog.1.scale.y"));
 _group_font_space_x[0,1]=real(Lang_GetString("font.dialog.1.space.x"));
 _group_font_space_y[0]=real(Lang_GetString("font.dialog.space.y"));
 
-_group_font[1,0]=Lang_GetFont(Lang_GetString("font.menu.0"));
+_group_font[1,0]=fnt_maintext;
 _group_font_scale_x[1,0]=real(Lang_GetString("font.menu.0.scale.x"));
 _group_font_scale_y[1,0]=real(Lang_GetString("font.menu.0.scale.y"));
 _group_font_space_x[1,0]=real(Lang_GetString("font.menu.0.space.x"));
-_group_font[1,1]=Lang_GetFont(Lang_GetString("font.menu.1"));
+_group_font[1,1]=fnt_maintext;
 _group_font_scale_x[1,1]=real(Lang_GetString("font.menu.1.scale.x"));
 _group_font_scale_y[1,1]=real(Lang_GetString("font.menu.1.scale.y"));
 _group_font_space_x[1,1]=real(Lang_GetString("font.menu.1.space.x"));
 _group_font_space_y[1]=real(Lang_GetString("font.menu.space.y"));
 
-_group_font[2,0]=Lang_GetFont(Lang_GetString("font.battle.0"));
+_group_font[2,0]=fnt_main;
 _group_font_scale_x[2,0]=real(Lang_GetString("font.battle.0.scale.x"));
 _group_font_scale_y[2,0]=real(Lang_GetString("font.battle.0.scale.y"));
 _group_font_space_x[2,0]=real(Lang_GetString("font.battle.0.space.x"));
-_group_font[2,1]=Lang_GetFont(Lang_GetString("font.battle.1"));
+_group_font[2,1]=fnt_main;
 _group_font_scale_x[2,1]=real(Lang_GetString("font.battle.1.scale.x"));
 _group_font_scale_y[2,1]=real(Lang_GetString("font.battle.1.scale.y"));
 _group_font_space_x[2,1]=real(Lang_GetString("font.battle.1.space.x"));

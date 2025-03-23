@@ -1,39 +1,39 @@
 var text = "";
 
 draw_set_color(c_white);
-draw_set_font(Lang_GetFont(Lang_GetString("font.menu.0")));
-draw_text(96, 18, "SETTINGS");
+draw_set_font(fnt_maintext);
+draw_text(96, 18, get_translate(global.translate_grid, "settings.title"));
 
-draw_set_font(Lang_GetFont(Lang_GetString("font.menu.0")));
+draw_set_font(fnt_maintext);
 
 if (_mybutton == 0) draw_set_color(c_yellow);
-draw_text(20, 44, "EXIT");
+draw_text(20, 44, get_translate(global.translate_grid, "settings.exit"));
 draw_set_color(c_white);
 
 if (_mybutton == 1) draw_set_color(c_yellow);
-text = "LANGUAGE    ";
+text = get_translate(global.translate_grid, "settings.language_text");
 switch(global.language) {
-	case 0: text += "ENGLISH";
+	case 1: text += "РУССКИЙ";
 	break;
-	case 1: text += "RUSSIAN";
+	case 2: text += "ENGLISH";
 	break;
 }
 draw_text(20, 74, text);
 draw_set_color(c_white);
 
 if (_mybutton == 2) draw_set_color(c_yellow);
-text = "BORDER    ";
+text = get_translate(global.translate_grid, "settings.border_text");
 
 switch (_bordertype) {
-	case 0: text = "NO BORDERS";
+	case 0: text = get_translate(global.translate_grid, "settings.border0")
 	break;
-	case 1: text += "Simple";
+	case 1: text += get_translate(global.translate_grid, "settings.border1")
 	break;
-	case 2: text += "Fancy"
+	case 2: text += get_translate(global.translate_grid, "settings.border2")
 	break;
-	case 3: text += "Sepia";
+	case 3: text += get_translate(global.translate_grid, "settings.border3")
 	break;
-	case 4: text += "Dynamic";
+	case 4: text += get_translate(global.translate_grid, "settings.border4")
 	break;
 }
 draw_text(20, 104, text);

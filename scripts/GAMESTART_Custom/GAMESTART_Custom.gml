@@ -1,9 +1,11 @@
 function GAMESTART_Custom() {
+	//csv_load_ext(global.translate_grid);
+	
 	ini_open("settings.ini")
 		global.enabled_dynamic_border = ini_read_real("BORDER", "EnableDynamic", false);
 		global.border = ini_read_real("BORDER", "BorderType", 0);
 		
-		global.language = ini_read_real("SETTINGS", "Language", 0);
+		global.language = ini_read_real("SETTINGS", "Language", 2);
 	ini_close();
 	
 	if (global.border == 0) border._enabled = false;

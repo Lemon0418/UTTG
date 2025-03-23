@@ -3,13 +3,12 @@ if(_menu==0){
 	var s=Storage_GetInfo();
 	_mode=s.IsFileExists()?1:0;
 	if(_mode==0){
-		_inst_instruction=instance_create_depth(170,40,0,text_typer);
-		_inst_instruction.text=_prefix+"{color_text `gray_light`} --- Instruction ---{space_y -1}&&{space_y 2}[Z or ENTER] - Confirm&[X or SHIFT] - Cancel&[C or CTRL] - Menu (In-game)&[F4] - Fullscreen&[Hold ESC] - Quit&When HP is 0, you lose.";
-		_inst_begin=instance_create_depth(170,344,0,text_typer);
+		_inst_instruction=instance_create_depth(140,40,0,text_typer);
+		_inst_instruction.text=_prefix+"{color_text `gray_light`} " + get_translate(global.translate_grid, "menu.instruction");
+		 _inst_begin=instance_create_depth(170,344,0,text_typer);
 		_inst_begin.text=_prefix+ get_translate(global.translate_grid, "menu.start");
-		//"Begin Game";
 		_inst_settings=instance_create_depth(170,384,0,text_typer);
-		_inst_settings.text=_prefix+"Settings";
+		_inst_settings.text=_prefix+get_translate(global.translate_grid, "menu.settings");
 		with(text_typer){
 			event_user(15);
 		}
@@ -33,14 +32,17 @@ if(_menu==0){
 			roomIndex=-1;
 		}
 		_inst_room.text=_prefix+Player_GetRoomName(roomIndex);
-		_inst_continue=instance_create_depth(170,210,0,text_typer);
-		_inst_continue.text=_prefix+Lang_GetString("menu.continue");
+		if (global.language == 1) _inst_continue=instance_create_depth(150,210,0,text_typer);
+		else _inst_continue=instance_create_depth(170,210,0,text_typer);
+		_inst_continue.text=_prefix+get_translate(global.translate_grid, "menu.contunie");
 		_inst_continue.override_color_text_enabled=true;
-		_inst_reset=instance_create_depth(390,210,0,text_typer);
-		_inst_reset.text=_prefix+Lang_GetString("menu.reset");
+		if (global.language == 1) _inst_reset=instance_create_depth(370,210,0,text_typer);
+		else _inst_reset=instance_create_depth(390,210,0,text_typer);
+		_inst_reset.text=_prefix+get_translate(global.translate_grid, "menu.reset");
 		_inst_reset.override_color_text_enabled=true;
-		_inst_settings=instance_create_depth(264,250,0,text_typer);
-		_inst_settings.text=_prefix+Lang_GetString("menu.settings");
+		if (global.language == 1) _inst_settings=instance_create_depth(244,250,0,text_typer);
+		else _inst_settings=instance_create_depth(264,250,0,text_typer);
+		_inst_settings.text=_prefix+get_translate(global.translate_grid, "menu.settings");
 		_inst_settings.override_color_text_enabled=true;
 		event_user(2);
 		

@@ -1,7 +1,18 @@
-KEY;RUSSIAN;ENGLISH;GERMAN
+﻿KEY;RUSSIAN;ENGLISH;GERMAN
+logo.minitext;[НАЖАТЬ Z ИЛИ ENTER];[PRESS Z OR ENTER];German need words
 menu.start;Начать Игру;Begin Game;German need words
 menu.reset;Сброс;Reset;German need words
 menu.settings;Настройки;Settings;German need words
 menu.contunie;Продолжить;Contunie;German need words
-dialog1;Привет! Это Шалфей!;Hi! It's Shalfey!;German need words
-dialog2;Как твои дела?;How are you doing?;German need words
+menu.instruction;--- Инструкция ---{space_y -1}&&{space_y 2}[Z or ENTER] - Подтвердить&[X or SHIFT] - Отменить&[C or CTRL] - Меню&[F4] - На весь экран&[Hold ESC] - Выйти&Если ОЗ достигнет 0,&вы проиграете.;--- Instruction ---{space_y -1}&&{space_y 2}[Z or ENTER] - Confirm&[X or SHIFT] - Cancel&[C or CTRL] - Menu (In-game)&[F4] - Fullscreen&[Hold ESC] - Quit&When HP is 0, you lose.;German need words
+
+
+settings.title;НАСТРОЙКИ;SETTINGS;German need words
+settings.exit;ВЫХОД;EXIT;German need words
+settings.language_text;ЯЗЫК        ;LANGUAGE    ;German need words
+settings.border_text;РАМКА     ;BORDER    ;German need words
+settings.border0;БЕЗ РАМКИ;NO BORDERS;German need words
+settings.border1;Простая;Simple;German need words
+settings.border2;Прозрачная;Fancy;German need words
+settings.border3;Сепия;Sepia;German need words
+settings.border4;Динамичный;Dynamic;German need words

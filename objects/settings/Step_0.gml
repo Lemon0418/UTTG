@@ -5,7 +5,7 @@ if (Input_IsPressed(INPUT.CONFIRM)) {
 	if (_mybutton == 0) room_goto(room_menu);
 	if (_mybutton == 1) {
 		global.language++;
-		if (global.language > _maxlanguages) global.language = 0;
+		if (global.language > _maxlanguages) global.language = 1;
 	}
 	if (_mybutton == 2) { 
 		_bordertype++;
@@ -16,7 +16,7 @@ if (Input_IsPressed(INPUT.CONFIRM)) {
 if (Input_IsPressed(INPUT.RIGHT)) {
 	if (_mybutton == 1) {
 		global.language++;
-		if (global.language > _maxlanguages) global.language = 0;
+		if (global.language > _maxlanguages) global.language = 1;
 	}
 	else if (_mybutton == 2) { 
 		_bordertype++;
@@ -27,7 +27,7 @@ if (Input_IsPressed(INPUT.RIGHT)) {
 else if (Input_IsPressed(INPUT.LEFT)) {
 	if (_mybutton == 1) {
 		global.language--;
-		if (global.language < 0) global.language = _maxlanguages;
+		if (global.language < 1) global.language = _maxlanguages;
 	}
 	else if (_mybutton == 2) { 
 		_bordertype--;
