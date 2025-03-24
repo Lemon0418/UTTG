@@ -113,6 +113,8 @@
     {"name":"obj_whitefader","order":22,"path":"objects/obj_whitefader/obj_whitefader.yy",},
     {"name":"quittingmessage","order":27,"path":"objects/quittingmessage/quittingmessage.yy",},
     {"name":"ruins_column","order":11,"path":"objects/ruins_column/ruins_column.yy",},
+    {"name":"ruins_column1","order":12,"path":"objects/ruins_column1/ruins_column1.yy",},
+    {"name":"ruins_column2","order":13,"path":"objects/ruins_column2/ruins_column2.yy",},
     {"name":"shaker","order":12,"path":"objects/shaker/shaker.yy",},
     {"name":"text_single","order":3,"path":"objects/text_single/text_single.yy",},
     {"name":"text_typer","order":1,"path":"objects/text_typer/text_typer.yy",},
