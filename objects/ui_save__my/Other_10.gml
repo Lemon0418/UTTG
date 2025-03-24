@@ -6,8 +6,7 @@ if(_state==0){
 	_inst_lv.text=_prefix+ + get_translate(global.translate_grid, "save.lvl") + " " + string(global.lv);
 	
 	
-	
-	ini_open("eggy0.ini");
+	ini_open("eggy"+string(global.save_slot)+".ini");
 		var time=global.time;
 		var roomIndex=ini_read_real("EGGY", "room", -1);
 	ini_close();
@@ -31,7 +30,7 @@ if(_state==0){
 	_inst_return.text=_prefix+get_translate(global.translate_grid, "save.return");
 }
 if(_state==1){
-	UTTG_scr_save(0);
+	UTTG_scr_save(global.save_slot);
 	
 	audio_play_sound(snd_save,0,false);
 	

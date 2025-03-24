@@ -52,8 +52,6 @@ if(_menu==0){
 				}else{
 					show_message($"ERROR:\nAttempt to goto an unexisting room {roomName}");
 				}
-				Player_SetItemArmor(ITEM_STAINED_APRON);
-				Player_SetItemWeapon(ITEM_BURNT_PAN);
 			}else if(_choice==1){
 				_menu=2;
 				var z=Storage_GetInfoGeneral();
@@ -65,7 +63,8 @@ if(_menu==0){
 			}
 		}
 	}
-}else if(_menu==1){
+}
+/*else if(_menu==1){
 	if(_choice_naming==0){
 		if(Input_IsPressed(INPUT.RIGHT)){
 			if(_choice_naming_letter<51){
@@ -181,34 +180,11 @@ if(_menu==0){
 			}
 		}
 	}
-}else if(_menu==2){
-	//_menu = 3;
-	/*if(Input_IsPressed(INPUT.LEFT)){
-		if(_choice_confirm>0){
-			_choice_confirm=0;
-			event_user(5);
-		}
-	}else if(Input_IsPressed(INPUT.RIGHT)){
-		if(_choice_confirm<1&&_confirm_valid){
-			_choice_confirm=1;
-			event_user(5);
-		}
-	}else if(Input_IsPressed(INPUT.CONFIRM)){
-		if(_choice_confirm==0){
-			_menu=(_mode==0 ? 1 : 0);
-			event_user(0);
-		}else{
-			_menu=3;
-			event_user(0);
-		}
-	}*/
+}*/
+else if(_menu==2){
+	
 }
 
 if(_menu==2||_menu==3){
-	if(_confirm_name_update){
-		_confirm_name_offset_x=random_range(-1,1);
-		_confirm_name_offset_y=random_range(-1,1);
-		_confirm_name_angle=random_range(-1,1);
-	}
-	_confirm_name_update=!_confirm_name_update;
+	
 }

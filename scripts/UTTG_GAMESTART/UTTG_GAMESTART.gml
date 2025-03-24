@@ -1,4 +1,5 @@
 function UTTG_GAMESTART() {
+	global.save_slot = 0;
 	
 	global.player_name = get_translate(global.translate_grid, "player.name");
 	global.current_room = room;

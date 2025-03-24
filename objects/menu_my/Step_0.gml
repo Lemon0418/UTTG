@@ -12,7 +12,7 @@ if(_menu==0){
 			}
 		}else if(Input_IsPressed(INPUT.CONFIRM)){
 			if(_choice==0){
-				_menu=3;
+				_menu=1;
 				event_user(0);
 			}else{
 				room_goto(room_settings);
@@ -41,151 +41,49 @@ if(_menu==0){
 			}
 		}else if(Input_IsPressed(INPUT.CONFIRM)){
 			if(_choice==0){
-				UTTG_scr_load(0);
-				var roomName="-__-";
-				var roomIndex=global.current_room;
-				room_goto(roomIndex);
-				audio_stop_sound(mus_menu0);
-				if(!room_exists(roomIndex)){
-					roomIndex=-1;
-				}
-				if(room_exists(roomIndex)){
-					room_goto(roomIndex);
-				}else{
-					show_message($"ERROR:\nAttempt to goto an unexisting room {roomName}");
-				}
-				Player_SetItemArmor(ITEM_STAINED_APRON);
-				Player_SetItemWeapon(ITEM_BURNT_PAN);
+				_menu = 1;
+				event_user(0);
+				event_user(2);
 			}else if(_choice==1){
-				_menu=2;
+				_menu=3;
 				var z=Storage_GetInfoGeneral();
 				_naming_name=global.player_name;
 				_confirm_title=Lang_GetString("menu.confirm.title.reset");
 				event_user(0);
-			}else if(_choice==2){
+			}else if(_choice==2) {
 				room_goto(room_settings);
 			}
 		}
 	}
-}else if(_menu==1){
-	if(_choice_naming==0){
-		if(Input_IsPressed(INPUT.RIGHT)){
-			if(_choice_naming_letter<51){
-				_choice_naming_letter+=1;
-				event_user(3);
-			}
-		}else if(Input_IsPressed(INPUT.LEFT)){
-			if(_choice_naming_letter>0){
-				_choice_naming_letter-=1;
-				event_user(3);
-			}
-		}else if(Input_IsPressed(INPUT.UP)){
-			if(_choice_naming_letter>=0&&_choice_naming_letter<=1){
-				_choice_naming=1;
-				_choice_naming_command=0;
-			}else if(_choice_naming_letter>=2&&_choice_naming_letter<=4){
-				_choice_naming=1;
-				_choice_naming_command=1;
-			}else if(_choice_naming_letter>=5&&_choice_naming_letter<=6){
-				_choice_naming=1;
-				_choice_naming_command=2;
-			}else if(_choice_naming_letter>=26&&_choice_naming_letter<=30){
-				_choice_naming_letter-=5;
-			}else if(_choice_naming_letter>=31&&_choice_naming_letter<=32){
-				_choice_naming_letter-=12;
-			}else{
-				_choice_naming_letter-=7;
-			}
-			event_user(3);
-		}else if(Input_IsPressed(INPUT.DOWN)){
-			if(_choice_naming_letter>=21&&_choice_naming_letter<=25){
-				_choice_naming_letter+=5;
-			}else if(_choice_naming_letter>=19&&_choice_naming_letter<=20){
-				_choice_naming_letter+=12;
-			}else if(_choice_naming_letter>=45&&_choice_naming_letter<=46){
-				_choice_naming=1;
-				_choice_naming_command=2;
-			}else if(_choice_naming_letter>=47&&_choice_naming_letter<=48){
-				_choice_naming=1;
-				_choice_naming_command=0;
-			}else if(_choice_naming_letter>=49&&_choice_naming_letter<=51){
-				_choice_naming=1;
-				_choice_naming_command=1;
-			}else{
-				_choice_naming_letter+=7;
-			}
-			event_user(3);
-		}else if(Input_IsPressed(INPUT.CONFIRM)){
-			if(string_length(_naming_name)<6){
-				var inst=_inst_naming_letters._list_inst[|_choice_naming_letter];
-				_naming_name+=inst.text;
-			}
-		}else if(Input_IsPressed(INPUT.CANCEL)){
-			if(string_length(_naming_name)>0){
-				_naming_name=string_delete(_naming_name,string_length(_naming_name),1);
-			}
+}else if(_menu==1) {
+		if(Input_IsPressed(INPUT.DOWN)) {
+			_choise_save++;
+			if(_choise_save > 3) _choise_save=0;
+			event_user(2);
 		}
-	}else{
-		if(Input_IsPressed(INPUT.RIGHT)){
-			if(_choice_naming_command<2){
-				_choice_naming_command+=1;
-				event_user(3);
-			}
-		}else if(Input_IsPressed(INPUT.LEFT)){
-			if(_choice_naming_command>0){
-				_choice_naming_command-=1;
-				event_user(3);
-			}
-		}else if(Input_IsPressed(INPUT.UP)){
-			if(_choice_naming_command==0){
-				_choice_naming=0;
-				_choice_naming_letter=47;
-			}else if(_choice_naming_command==1){
-				_choice_naming=0;
-				_choice_naming_letter=49;
-			}else if(_choice_naming_command==2){
-				_choice_naming=0;
-				_choice_naming_letter=45;
-			}
-			event_user(3);
-		}else if(Input_IsPressed(INPUT.DOWN)){
-			if(_choice_naming_command==0){
-				_choice_naming=0;
-				_choice_naming_letter=0;
-			}else if(_choice_naming_command==1){
-				_choice_naming=0;
-				_choice_naming_letter=2;
-			}else if(_choice_naming_command==2){
-				_choice_naming=0;
-				_choice_naming_letter=5;
-			}
-			event_user(3);
-		}else if(Input_IsPressed(INPUT.CONFIRM)){
-			if(_choice_naming_command==0){
-				_menu=0;
-				event_user(0);
-			}
-			if(_choice_naming_command==1){
-				if(string_length(_naming_name)>0){
-					_naming_name=string_delete(_naming_name,string_length(_naming_name),1);
-				}
-			}
-			if(_choice_naming_command==2){
-				if(_naming_name!=""){
-					event_user(4);
-					_menu=2;
-					event_user(0);
-				}
-			}
-		}else if(Input_IsPressed(INPUT.CANCEL)){
-			if(string_length(_naming_name)>0){
-				_naming_name=string_delete(_naming_name,string_length(_naming_name),1);
-			}
+		else if(Input_IsPressed(INPUT.UP)){
+			_choise_save--;
+			if(_choise_save < 0) _choise_save=3;
+			event_user(2);
 		}
-	}
-}else if(_menu==2){
-	//_menu = 3;
-	/*if(Input_IsPressed(INPUT.LEFT)){
+		else if (Input_IsPressed(INPUT.CONFIRM)) {
+			UTTG_scr_load(_choise_save);
+			global.save_slot = _choise_save;
+			var roomName="--__--";
+			var roomIndex=global.current_room;
+			room_goto(roomIndex);
+			audio_stop_sound(mus_menu0);
+			if(!room_exists(roomIndex)) roomIndex=-1;
+			if(room_exists(roomIndex)) room_goto(roomIndex);
+		}
+		else if (Input_IsPressed(INPUT.CANCEL)) {
+			_menu = 0;
+			event_user(0);
+		}
+}
+else if(_menu==2){
+	/*_menu = 3;
+	if(Input_IsPressed(INPUT.LEFT)){
 		if(_choice_confirm>0){
 			_choice_confirm=0;
 			event_user(5);

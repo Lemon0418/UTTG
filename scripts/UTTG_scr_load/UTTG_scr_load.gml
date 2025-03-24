@@ -3,9 +3,12 @@ function UTTG_scr_load(){
 	
 	var save_name = "";
 	if (argument0 == 0) save_name = "eggy0.ini";
+	if (argument0 == 1) save_name = "eggy1.ini";
+	if (argument0 == 2) save_name = "eggy2.ini";
+	if (argument0 == 3) save_name = "eggy3.ini";
 	
 	ini_open(save_name);
-		global.current_room = ini_read_real("EGGY", "room", room_area1);
+		global.current_room = ini_read_real("EGGY", "room", real(room_area1));
 		global.time = ini_read_real("EGGY", "time", 0);
 		
 		index = 0;

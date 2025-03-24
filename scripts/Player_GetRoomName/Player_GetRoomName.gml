@@ -11,6 +11,9 @@ function Player_GetRoomName() {
 		case room_ruins1:
 			name = get_translate(global.translate_grid, "save.roomname0");
 			break;
+		case room_pre_sewers:
+			name = "pohuy";
+			break;
 	}
 	return name;
 

@@ -105,6 +105,7 @@
     {"name":"hint_landmark","order":3,"path":"objects/hint_landmark/hint_landmark.yy",},
     {"name":"logo","order":18,"path":"objects/logo/logo.yy",},
     {"name":"menu_my","order":28,"path":"objects/menu_my/menu_my.yy",},
+    {"name":"menu_savebox","order":29,"path":"objects/menu_savebox/menu_savebox.yy",},
     {"name":"menu","order":19,"path":"objects/menu/menu.yy",},
     {"name":"o_credits","order":26,"path":"objects/o_credits/o_credits.yy",},
     {"name":"obj_intro_fader","order":3,"path":"objects/obj_intro_fader/obj_intro_fader.yy",},
