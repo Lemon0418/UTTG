@@ -1,22 +1,24 @@
 if(_state==0||_state==1){
-  draw_sprite_ext(spr_pixel,0,108,118,424,4,0,c_white,1);
-   draw_sprite_ext(spr_pixel,0,108,118+4,424,2,0,c_black,1);
+	var _border_color = c_white;
+	if (_state == 1) _border_color = make_color_rgb(255,221,51);
+	
+	draw_sprite_ext(spr_pixel,0,108,118,424,4,0,_border_color,1);
+	draw_sprite_ext(spr_pixel,0,108,118+4,424,2,0,c_black,1);
     draw_sprite_ext(spr_pixel,0,108,118-2,424,2,0,c_black,1);
     
-  draw_sprite_ext(spr_pixel,0,108,118+174-4,424,4,0,c_white,1);
-   draw_sprite_ext(spr_pixel,0,108,118+174-4+4,424,2,0,c_black,1);
+	draw_sprite_ext(spr_pixel,0,108,118+174-4,424,4,0,_border_color,1);
+	draw_sprite_ext(spr_pixel,0,108,118+174-4+4,424,2,0,c_black,1);
     draw_sprite_ext(spr_pixel,0,108,118+174-4-2,424,2,0,c_black,1);
     
-  draw_sprite_ext(spr_pixel,0,108,118,4,174,0,c_white,1);
-   draw_sprite_ext(spr_pixel,0,108+4,118+4,2,174-8,0,c_black,1);
+	draw_sprite_ext(spr_pixel,0,108,118,4,174,0,_border_color,1);
+	draw_sprite_ext(spr_pixel,0,108+4,118+4,2,174-8,0,c_black,1);
     draw_sprite_ext(spr_pixel,0,108-2,118-2,2,174+4,0,c_black,1);
     
-    draw_sprite_ext(spr_pixel,0,108+424-4,118,4,174,0,c_white,1);
-     draw_sprite_ext(spr_pixel,0,108+424-4-2,118+4,2,174-8,0,c_black,1);
-      draw_sprite_ext(spr_pixel,0,108+424,118-2,2,174+4,0,c_black,1);
-  
-  
-  draw_sprite_ext(spr_pixel,0,108+6,118+6,424-6*2,174-6*2,0,c_black,0.7);
+    draw_sprite_ext(spr_pixel,0,108+424-4,118,4,174,0,_border_color,1);
+    draw_sprite_ext(spr_pixel,0,108+424-4-2,118+4,2,174-8,0,c_black,1);
+    draw_sprite_ext(spr_pixel,0,108+424,118-2,2,174+4,0,c_black,1);
+	
+	draw_sprite_ext(spr_pixel,0,108+6,118+6,424-6*2,174-6*2,0,c_black,0.7);
 }
 
 if(_state==0){

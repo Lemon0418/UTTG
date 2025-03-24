@@ -9,4 +9,4 @@ Player_SetName(_naming_name);
 
 fader.color=c_black;
 Fader_Fade(-1,0,20);
-room_goto_next();
+room_goto(room_area1);

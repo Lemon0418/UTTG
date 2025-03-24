@@ -26,14 +26,14 @@ switch(cmd[|0]){
 					break;
 					
 				case c_yellow:
-					_color_text[0]=make_color_rgb(255,255,195);
-					_color_text[1]=make_color_rgb(255,255,195);
-					_color_text[2]=make_color_rgb(255,255,60);
-					_color_text[3]=make_color_rgb(255,255,60);
-					_color_shadow[0]=make_color_rgb(76,76,0);
-					_color_shadow[1]=make_color_rgb(76,76,0);
-					_color_shadow[2]=make_color_rgb(76,76,0);
-					_color_shadow[3]=make_color_rgb(76,76,0);
+					_color_text[0]=make_color_rgb(255,221,51);
+					_color_text[1]=make_color_rgb(255,221,51);
+					_color_text[2]=make_color_rgb(255,221,51);
+					_color_text[3]=make_color_rgb(255,221,51);
+					_color_shadow[0]=make_color_rgb(51,30,0);
+					_color_shadow[1]=make_color_rgb(51,30,0);
+					_color_shadow[2]=make_color_rgb(51,30,0);
+					_color_shadow[3]=make_color_rgb(51,30,0);
 					break;
 					
 				case c_red:
