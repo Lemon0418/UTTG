@@ -6,6 +6,7 @@ if(_time>=60){
 	var time=z.Get(FLAG_STATIC_TIME,0);
 	z.Set(FLAG_STATIC_TIME,time+1);
 	_time=0;
+	global.time++;
 }else{
 	_time+=1;
 }

@@ -248,6 +248,6 @@
     "name":"Default",
     "path":"texturegroups/Default",
   },
-  "TTFName":"C:\\Users\\user\\Documents\\GitHub\\UTTG\\fonts\\fnt_main\\determination.ttf",
+  "TTFName":null,
   "usesSDF":false,
 }

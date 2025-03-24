@@ -1,7 +1,28 @@
-function GAMESTART_Custom() {
-	//csv_load_ext(global.translate_grid);
-	Player_SetItemArmor(ITEM_STAINED_APRON);
-	Player_SetItemWeapon(ITEM_BURNT_PAN);
+function UTTG_GAMESTART() {
+	
+	global.player_name = get_translate(global.translate_grid, "player.name");
+	global.current_room = room;
+	global.time = 0;
+	
+	global.xp = 0;
+	global.next_xp = 10;
+	global.lv = 1;
+	global.hp = 20;
+	global.max_hp = 20;
+	
+	global.weapon = 47;
+	global.armor = 46;
+	var index = 0;
+	while (index < 8) {
+		global.item[index] = 0;
+		index++;
+	}
+	
+	index = 0;
+	while (index < 512) {
+		global.flag[index] = 0;
+		index++;
+	}
 	
 	ini_open("settings.ini")
 		global.enabled_dynamic_border = ini_read_real("BORDER", "EnableDynamic", false);

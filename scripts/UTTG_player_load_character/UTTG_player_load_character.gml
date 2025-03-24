@@ -1,4 +1,4 @@
-function Player_LoadCharacter(){
+function UTTG_player_load_character(){
 	var index = char_index;
 	switch(index) {
 		default:

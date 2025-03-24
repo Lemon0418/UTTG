@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Player_LoadCharacter",
+  "%Name":"UTTG_scr_save",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Player_LoadCharacter",
+  "name":"UTTG_scr_save",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"GAMESTART_Custom",
+  "%Name":"UTTG_scr_reset",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"GAMESTART_Custom",
+  "name":"UTTG_scr_reset",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
