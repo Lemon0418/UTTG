@@ -3,31 +3,31 @@ soundstop = noone;
 
 switch(room){
 	case room_settings:
-	soundstop = mus_menu0;
-	sound = mus_settings;
+		soundstop = mus_menu0;
+		sound = mus_settings;
 	break;
 	case room_menu:
-	soundstop = [mus_ruins,mus_settings]
-	sound = mus_menu0;
+		soundstop = [mus_ruins,mus_settings]
+		sound = mus_menu0;
 	break;
 	case room_ruins1:
-	soundstop = [mus_menu0,mus_settings,snd_cymbal]
-	sound = mus_ruins
+		soundstop = [mus_menu0,mus_settings,snd_cymbal]
+		sound = mus_ruins;
 	break;
 	case room_area1:
-	soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
+		soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
 	break;
 	case room_area2:
-	soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
+		soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
 	break;
 	case room_credits:
-	soundstop = [mus_ruins]
+		soundstop = [mus_ruins]
 	break;
 	case room_pre_sewers:
-	soundstop = [mus_ruins]
+		soundstop = [mus_ruins]
 	break;
 	case room_ruins2:
-	sound = mus_ruins
+		sound = mus_ruins;
 	break;
 }
 

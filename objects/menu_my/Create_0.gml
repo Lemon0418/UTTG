@@ -14,17 +14,11 @@ _inst_reset=noone;
 _inst_settings=noone;
 
 _inst_save_title=noone;
-var index = 0;
-while(index < 4) {
-	_inst_save_name[index]=noone;
-	_inst_save_lv[index]=noone;
-	_inst_save_time[index]=noone;
-	_inst_save_room[index]=noone;
-	
-	index++;
+var i = 0;
+while(i < 4) {
+	_inst_savebox[i]=noone;
+	i++;
 }
-
-
 
 _inst_confirm_title=noone;
 _inst_confirm_yes=noone;
@@ -32,6 +26,7 @@ _inst_confirm_no=noone;
 
 _choice=0;
 _choise_save = 0;
+_choise_save_edit = 0;
 _choice_confirm=0;
 
 _confirm_title="";
@@ -49,5 +44,6 @@ _naming_name="EGGY";
 _change_inst=noone;
 _change_color=c_white;
 _change_id=-1;
+
 
 event_user(0);

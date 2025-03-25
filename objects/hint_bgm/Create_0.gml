@@ -1,0 +1,2 @@
+sound = noone;
+soundstop = noone;

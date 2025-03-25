@@ -5,16 +5,16 @@ if(_state==0){
 	_inst_lv=instance_create_depth(108+6+180,118+6+16,0,text_typer);
 	_inst_lv.text=_prefix+ + get_translate(global.translate_grid, "save.lvl") + " " + string(global.lv);
 	
-	
 	ini_open("eggy"+string(global.save_slot)+".ini");
-		var time=global.time;
+		var time=ini_read_real("EGGY", "time", 0);
 		var roomIndex=ini_read_real("EGGY", "room", -1);
 	ini_close();
 		
 	var minute=floor(time/60);
 	var second=time%60;
-	if (!instance_exists(_inst_time)) _inst_time=instance_create_depth(108+6+338,118+6+16,0,text_typer);
-	_inst_time.text=_prefix+$"{minute}:{second<10 ? "0" : ""}{second}";
+	if (!instance_exists(_inst_time)) _inst_time=instance_create_depth(108+6+300,118+6+16,0,text_typer);
+	_inst_time.text=_prefix+ $"{minute<100 ? " " : ""}{minute<10 ? " " : ""}{string(minute)}:{second<10 ? "0" : ""}{second}";
+	if (time == 0) _inst_time.text=_prefix+" --:--";
 	
 	_inst_room=instance_create_depth(108+6+26,118+6+56,0,text_typer);
 	
@@ -62,8 +62,8 @@ if(_state==1){
 	var time=global.time;
 	var minute=floor(time/60);
 	var second=time%60;
-	if (!instance_exists(_inst_time)) _inst_time=instance_create_depth(108+6+338,118+6+16,0,text_typer);
-	_inst_time.text=_prefix+"{color `yellow`}"+$"{string(minute)}:{second<10 ? "0" : ""}{second}";
+	if (!instance_exists(_inst_time)) _inst_time=instance_create_depth(108+6+300,118+6+16,0,text_typer);
+	_inst_time.text=_prefix+"{color `yellow`}"+$"{minute<100 ? " " : ""}{minute<10 ? " " : ""}{string(minute)}:{second<10 ? "0" : ""}{second}";
 	
 	_inst_room=instance_create_depth(108+6+26,118+6+56,0,text_typer);
 	var roomIndex=global.current_room;
