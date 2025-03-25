@@ -1,3 +1,4 @@
-text="* What a Fu"
+text="* What a Fu__";
+
 
 event_inherited()

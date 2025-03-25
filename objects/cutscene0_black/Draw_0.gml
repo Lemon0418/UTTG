@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_pixel, 0, 0, 0, 20, room_height, 0, c_black, 1);

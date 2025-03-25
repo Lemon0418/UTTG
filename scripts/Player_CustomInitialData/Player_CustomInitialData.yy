@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Player_CustomInitialData",
   "parent":{
-    "name":"undertale_engine",
-    "path":"undertale_engine.yyp",
+    "name":"UNDERTALE TRUE GREEN",
+    "path":"UNDERTALE TRUE GREEN.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

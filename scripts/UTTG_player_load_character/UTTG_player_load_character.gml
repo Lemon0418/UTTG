@@ -46,10 +46,10 @@ function UTTG_player_load_character(){
 			res_move_sprite[DIR.LEFT]=spr_char_eggy_left;
 			res_move_sprite[DIR.RIGHT]=spr_char_eggy_right;
 
-			res_run_sprite[DIR.UP]=spr_char_eggy_up;
-			res_run_sprite[DIR.DOWN]=spr_char_eggy_down;
-			res_run_sprite[DIR.LEFT]=spr_char_eggy_left;
-			res_run_sprite[DIR.RIGHT]=spr_char_eggy_right;
+			res_run_sprite[DIR.UP]=spr_char_eggy_run_up;
+			res_run_sprite[DIR.DOWN]=spr_char_eggy_run_down;
+			res_run_sprite[DIR.LEFT]=spr_char_eggy_run_left;
+			res_run_sprite[DIR.RIGHT]=spr_char_eggy_run_right;
 		break;
 	}
 }

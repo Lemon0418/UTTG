@@ -46,10 +46,13 @@ repeat(4){
 	proc+=90;
 }
 
+
+_i++;
+if (_i > 50) _i = 0;
 var refresh=((dir!=_dir_previous || talking!=_talking_previous || (move[dir]>0)!=(_move_previous>0)) && !res_override);
 if(refresh){
 	if(move[DIR.UP]>0 || move[DIR.DOWN]>0) || (move[DIR.LEFT]>0 || move[DIR.RIGHT]>0) {
-		sprite_index = (running ? res_run_sprite[dir] : res_move_sprite[dir]);
+		sprite_index = (running==true ? res_run_sprite[dir] : res_move_sprite[dir]);
 		image_index = res_move_image[dir];
 		image_speed = res_move_speed[dir];
 	}else if(talking){
@@ -61,7 +64,7 @@ if(refresh){
 		image_index = res_idle_image[dir];
 		image_speed = res_idle_speed[dir];
 	}
-}
+}else sprite_index = (running==true && (move[DIR.UP]>0 || move[DIR.DOWN]>0) || (move[DIR.LEFT]>0 || move[DIR.RIGHT]>0) ? res_run_sprite[dir] : res_move_sprite[dir]);
 
 _talking_previous=talking;
 _dir_previous=dir;
