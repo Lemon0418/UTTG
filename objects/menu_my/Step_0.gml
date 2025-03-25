@@ -25,11 +25,6 @@ if(_menu==0){
 				_choice=0;
 				event_user(2);
 			}
-		}else if(Input_IsPressed(INPUT.RIGHT)){
-			if(_choice==0){
-				_choice=1;
-				event_user(2);
-			}
 		}else if(Input_IsPressed(INPUT.DOWN)){
 			if(_choice!=2){
 				_choice=2;

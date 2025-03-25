@@ -10,7 +10,6 @@ _inst_lv=noone;
 _inst_time=noone;
 _inst_room=noone;
 _inst_continue=noone;
-_inst_reset=noone;
 _inst_settings=noone;
 
 _inst_save_title=noone;

@@ -23,18 +23,14 @@ if(_menu==0) {
 		}
 		event_user(2);
 	}else{		
-		if (global.language == 1) _inst_continue=instance_create_depth(150,210,0,text_typer);
-		else _inst_continue=instance_create_depth(170,210,0,text_typer);
+		if (global.language == 1) _inst_continue=instance_create_depth(235,210,0,text_typer);
+		else _inst_continue=instance_create_depth(244,210,0,text_typer);
 		
 		_inst_continue.text=_prefix+get_translate(global.translate_grid, "menu.contunie");
 		_inst_continue.override_color_text_enabled=true;
-		if (global.language == 1) _inst_reset=instance_create_depth(370,210,0,text_typer);
-		else _inst_reset=instance_create_depth(390,210,0,text_typer);
-		
-		_inst_reset.text=_prefix+get_translate(global.translate_grid, "menu.reset");
-		_inst_reset.override_color_text_enabled=true;
+
 		if (global.language == 1) _inst_settings=instance_create_depth(244,250,0,text_typer);
-		else _inst_settings=instance_create_depth(264,250,0,text_typer);
+		else _inst_settings=instance_create_depth(244,250,0,text_typer);
 		
 		_inst_settings.text=_prefix+get_translate(global.translate_grid, "menu.settings");
 		_inst_settings.override_color_text_enabled=true;
@@ -52,9 +48,6 @@ else {
 		instance_destroy();
 	}
 	with(_inst_continue) {
-		instance_destroy();
-	}
-	with(_inst_reset) {
 		instance_destroy();
 	}
 }

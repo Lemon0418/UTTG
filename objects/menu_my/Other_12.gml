@@ -9,7 +9,6 @@ if (_menu == 0) {
 		event_user(1);
 	}else{
 		_inst_continue.override_color_text=(_choice==0 ? c_yellow : c_white);
-		_inst_reset.override_color_text=(_choice==1 ? c_yellow : c_white);
 		_inst_settings.override_color_text=(_choice==2 ? c_yellow : c_white);
 	}
 }
