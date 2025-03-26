@@ -26,7 +26,6 @@ pressed = false;
 timer = 0;
 t = noone;
 
-BGM_Play(2, mus_intro, false, 14.50);
-var pitch = random_range(0.98, 1.1);
-BGM_SetPitch(2, pitch);
+var pitch = random_range(0.98, 1.05);
+caster_play(mus_intro, 1, pitch);
 instance_create_depth(0, 0, 0, fader);

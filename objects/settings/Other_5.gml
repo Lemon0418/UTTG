@@ -11,3 +11,5 @@ ini_write_real("BORDER", "BorderType", global.border);
 ini_write_real("SETTINGS", "Language", global.language);
 
 ini_close();
+
+caster_stop(mus_settings);

@@ -4,7 +4,7 @@ if (Input_IsPressed(INPUT.CONFIRM) && pressed = false) {
 	fader.color = c_black;
 	Fader_Fade(0,1,40,0);
 	timer--;
-	BGM_SetVolume(2,0,60);
+	caster_set_volume(mus_intro, 0, 0.5);
 	with (text_typer) instance_destroy();
 	alarm[3]=60;
 }
@@ -35,7 +35,7 @@ if (Input_IsPressed(INPUT.CONFIRM) && pressed = false) {
 		instance_create_depth(0,0,0, obj_intro_fader);
 		obj_intro_fader.fade_speed = 4 / 3;
 		obj_intro_fader.unfade = false;
-		BGM_SetVolume(2,0,60);
+		caster_set_volume(mus_intro, 0, 0.5);
 		alarm[3]=60;
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"caster_is_playing",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"caster_is_playing",
+  "parent":{
+    "name":"CASTER",
+    "path":"folders/Scripts/CASTER.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

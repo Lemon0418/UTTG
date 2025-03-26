@@ -9,4 +9,4 @@ _bordertype = 0;
 _cborder = 0; // чтоб в энд ивент анимация не повторялась
 _maxbordertype = 4;
 
-BGM_Play(4,mus_settings,false,14.50);
+caster_stop(mus_menu0);
