@@ -129,11 +129,13 @@ if(_menu==2){
 	}
 }
 
-if(_menu==3) {
+if(_menu==3 || _menu == 5) {
 	fader.color=c_white;
-	Fader_Fade(-1,1,290);
-	snd_play(snd_cymbal);
-//	instance_destroy(hint_bgm);
+	Fader_Fade(-1,1, (_menu == 5 ? 140 : 290));
+	if (_menu = 3) snd_play(snd_cymbal);
+	//else ;
 	caster_set_volume(menusong, 0, 1);
-	alarm[0]=320;
+	if (_menu = 3) alarm[0]=320;
+	else alarm[1] = 160;
+	_menu = 3;
 }

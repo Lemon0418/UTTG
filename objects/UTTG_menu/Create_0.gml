@@ -25,6 +25,7 @@ _inst_confirm_no=noone;
 
 _choice=0;
 _choise_save = 0;
+_gotoroom = 0;
 _choise_save_edit = 0;
 _choice_confirm=0;
 

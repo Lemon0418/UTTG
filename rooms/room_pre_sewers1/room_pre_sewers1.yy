@@ -15,6 +15,7 @@
     {"name":"inst_3E8CC10D","path":"rooms/room_pre_sewers1/room_pre_sewers1.yy",},
     {"name":"inst_44A9796C","path":"rooms/room_pre_sewers1/room_pre_sewers1.yy",},
     {"name":"inst_1D632605","path":"rooms/room_pre_sewers1/room_pre_sewers1.yy",},
+    {"name":"inst_4C8189A","path":"rooms/room_pre_sewers1/room_pre_sewers1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,6 +29,7 @@
         {"$GMRInstance":"v1","%Name":"inst_3E8CC10D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E8CC10D","objectId":{"name":"hint_landmark","path":"objects/hint_landmark/hint_landmark.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":149.0,},
         {"$GMRInstance":"v1","%Name":"inst_44A9796C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44A9796C","objectId":{"name":"hint_landmark","path":"objects/hint_landmark/hint_landmark.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":200.0,"y":48.0,},
         {"$GMRInstance":"v1","%Name":"inst_1D632605","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D632605","objectId":{"name":"char_player","path":"objects/char_player/char_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":92.0,"y":151.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4C8189A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C8189A","objectId":{"name":"trigger_battle","path":"objects/trigger_battle/trigger_battle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":200.0,"y":140.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
           -8,-2147483648,6,15,19,19,13,36,36,-10,-2147483648,8,15,19,19,13,36,36,-2147483648,-2147483648,-8,22,
