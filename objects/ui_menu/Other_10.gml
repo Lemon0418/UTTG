@@ -51,8 +51,18 @@ if(_menu==3){
 		var def=Player_GetDef();
 		var def_item=Player_GetDefItem();
 		var itemTypeManager=Item_GetTypeManager();
-		var weapon=itemTypeManager.GetNameOrFallback(Player_GetItemWeapon());
-		var armor=itemTypeManager.GetNameOrFallback(Player_GetItemArmor());
+		//var weapon=itemTypeManager.GetNameOrFallback(Player_GetItemWeapon());
+		var weapon = "";
+		var armor = "";
+		switch(global.weapon) {
+			case 47: weapon = "Burnt Pan";
+			break;
+		}
+		switch(global.armor) {
+			case 46: armor = "Stained Apron";
+			break;
+		}
+		//var armor=itemTypeManager.GetNameOrFallback(Player_GetItemArmor());
 		var gold=Player_GetGold();
 		_inst_stat_0.text=_prefix+
 		"\""+get_translate(global.translate_grid, "player.name")+"\"&&"+

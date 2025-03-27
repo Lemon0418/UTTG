@@ -3,4 +3,4 @@ if (_phase == 0) {
   global.flag[9] = 1;
   alarm[0]=60;
 }
-char_player._moveable_dialog=false;
+char_player._moveable_dialog = false;
