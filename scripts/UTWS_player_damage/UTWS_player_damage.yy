@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"UTWS_player_damage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"UTWS_player_damage",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

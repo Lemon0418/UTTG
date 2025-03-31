@@ -1,4 +1,4 @@
-function UTTG_scr_save(argument0) {
+function UTWS_scr_save(argument0) {
 	var index;
 	
 	var save_name = "";

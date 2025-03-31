@@ -3,7 +3,7 @@ event_inherited();
 char_id = 1;
 
 char_index = 1;
-UTTG_player_load_character();
+UTWS_player_load_character();
 /*
 res_idle_sprite[DIR.UP]=spr_char_frisk_up;
 res_idle_sprite[DIR.DOWN]=spr_char_frisk_down;

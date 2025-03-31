@@ -222,7 +222,6 @@ function get_translate(grid, key){
 	return key;
 }
 
-
 //языки
 enum LANGUAGE { 
 	NONE,
@@ -230,4 +229,3 @@ enum LANGUAGE {
 	ENGLISH,
 	GERMAN
 }
-

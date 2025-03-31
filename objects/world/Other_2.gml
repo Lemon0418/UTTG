@@ -48,7 +48,7 @@ show_debug_message("Game Author: "+GAME_AUTHOR);
 show_debug_message("Game Version: "+GAME_VERSION);
 
 
-UTTG_GAMESTART();
+UTWS_GAMESTART();
 
 //show_debug_overlay(true);
 
