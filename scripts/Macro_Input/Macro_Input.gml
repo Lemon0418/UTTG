@@ -8,6 +8,4 @@ function Macro_Input() {
 		CANCEL,
 		MENU
 	};
-
-
 }

@@ -84,7 +84,7 @@ if(_menu==0){
 			event_user(0);
 		}
 		else if (Input_IsPressed(INPUT.MENU) && _inst_savebox[_choise_save]._time > 0) {
-			snd_play(snd_save);
+			snd_play(snd_menu_confirm);
 			_menu = 4;
 			event_user(0);
 		}
@@ -107,7 +107,7 @@ else if (_menu == 4) {
 			_inst_savebox[_choise_save]._name = "[EMPTY]";
 			_inst_savebox[_choise_save]._level = 0;
 			_inst_savebox[_choise_save]._time= 0;
-			_inst_savebox[_choise_save]._room = "____________";
+			_inst_savebox[_choise_save]._room = "_________ _";
 			_menu = 1;
 		}
 		else if (_choise_save_edit == 1) {

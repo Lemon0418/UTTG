@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.333787,
   "name":"snd_encounter_soul_move",
   "parent":{
     "name":"SFX",

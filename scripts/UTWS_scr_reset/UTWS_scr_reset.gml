@@ -26,14 +26,14 @@ function UTWS_scr_reset() {
 		index++;
 	}
 		
-	global.lv = 1;
+	global.lv = 90
 	global.xp = 0;
 	global.gold = 0;
 	global.kills = 0;
 	
 	UTWS_levelup();
 	
-	UTTG_scr_save(argument0);
+	UTWS_scr_save(argument0);
 	
 	global.time = time_prev;
 }

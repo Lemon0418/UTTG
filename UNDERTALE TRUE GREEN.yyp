@@ -138,7 +138,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"UNDERTALE TRUE GREEN",
   "resources":[
@@ -237,6 +237,7 @@
     {"id":{"name":"room_pre_sewers","path":"rooms/room_pre_sewers/room_pre_sewers.yy",},},
     {"id":{"name":"room_pre_sewers1","path":"rooms/room_pre_sewers1/room_pre_sewers1.yy",},},
     {"id":{"name":"room_pre_sewers2","path":"rooms/room_pre_sewers2/room_pre_sewers2.yy",},},
+    {"id":{"name":"room_pysto","path":"rooms/room_pysto/room_pysto.yy",},},
     {"id":{"name":"room_ruins1","path":"rooms/room_ruins1/room_ruins1.yy",},},
     {"id":{"name":"room_ruins2","path":"rooms/room_ruins2/room_ruins2.yy",},},
     {"id":{"name":"room_settings","path":"rooms/room_settings/room_settings.yy",},},
@@ -552,7 +553,6 @@
     {"id":{"name":"Storage_Custom","path":"scripts/Storage_Custom/Storage_Custom.yy",},},
     {"id":{"name":"Storage_InitUninit","path":"scripts/Storage_InitUninit/Storage_InitUninit.yy",},},
     {"id":{"name":"Storage","path":"scripts/Storage/Storage.yy",},},
-    {"id":{"name":"UTTG_scr_save","path":"scripts/UTTG_scr_save/UTTG_scr_save.yy",},},
     {"id":{"name":"UTWS_GAMESTART","path":"scripts/UTWS_GAMESTART/UTWS_GAMESTART.yy",},},
     {"id":{"name":"UTWS_levelup","path":"scripts/UTWS_levelup/UTWS_levelup.yy",},},
     {"id":{"name":"UTWS_player_damage","path":"scripts/UTWS_player_damage/UTWS_player_damage.yy",},},
@@ -560,6 +560,7 @@
     {"id":{"name":"UTWS_player_load_character","path":"scripts/UTWS_player_load_character/UTWS_player_load_character.yy",},},
     {"id":{"name":"UTWS_scr_load","path":"scripts/UTWS_scr_load/UTWS_scr_load.yy",},},
     {"id":{"name":"UTWS_scr_reset","path":"scripts/UTWS_scr_reset/UTWS_scr_reset.yy",},},
+    {"id":{"name":"UTWS_scr_save","path":"scripts/UTWS_scr_save/UTWS_scr_save.yy",},},
     {"id":{"name":"bgm_ruins","path":"sounds/bgm_ruins/bgm_ruins.yy",},},
     {"id":{"name":"bgm_toriel_basement","path":"sounds/bgm_toriel_basement/bgm_toriel_basement.yy",},},
     {"id":{"name":"bgm_toriel_house","path":"sounds/bgm_toriel_house/bgm_toriel_house.yy",},},
@@ -709,6 +710,7 @@
     {"roomId":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
     {"roomId":{"name":"room_pre_sewers1","path":"rooms/room_pre_sewers1/room_pre_sewers1.yy",},},
     {"roomId":{"name":"room_pre_sewers2","path":"rooms/room_pre_sewers2/room_pre_sewers2.yy",},},
+    {"roomId":{"name":"room_pysto","path":"rooms/room_pysto/room_pysto.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

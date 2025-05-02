@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"UTTG_scr_save",
+  "%Name":"UTWS_scr_save",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"UTTG_scr_save",
+  "name":"UTWS_scr_save",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

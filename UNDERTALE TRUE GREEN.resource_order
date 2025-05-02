@@ -60,6 +60,7 @@
     {"name":"world","order":5,"path":"objects/world/world.yy",},
     {"name":"room_pre_sewers1","order":1,"path":"rooms/room_pre_sewers1/room_pre_sewers1.yy",},
     {"name":"room_pre_sewers2","order":2,"path":"rooms/room_pre_sewers2/room_pre_sewers2.yy",},
+    {"name":"room_pysto","order":1,"path":"rooms/room_pysto/room_pysto.yy",},
     {"name":"caster_get_pitch","order":1,"path":"scripts/caster_get_pitch/caster_get_pitch.yy",},
     {"name":"caster_get_volume","order":2,"path":"scripts/caster_get_volume/caster_get_volume.yy",},
     {"name":"caster_is_playing","order":3,"path":"scripts/caster_is_playing/caster_is_playing.yy",},

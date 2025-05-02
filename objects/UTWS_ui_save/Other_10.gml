@@ -30,7 +30,7 @@ if(_state==0){
 	_inst_return.text=_prefix+get_translate(global.translate_grid, "save.return");
 }
 if(_state==1){
-	UTTG_scr_save(global.save_slot);
+	UTWS_scr_save(global.save_slot);
 	
 	audio_play_sound(snd_save,0,false);
 	
