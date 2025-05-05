@@ -13,7 +13,7 @@ if(audio_exists(BGM)){
 	BGM_Play(5,BGM);
 }
 
-//初始化敌人  сука теперь и китайский изучать
+//初始化敌人
 var proc=0;
 repeat(3){
 	Battle_SetEnemy(_enemy_object[proc],proc);

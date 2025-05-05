@@ -1,1 +1,1 @@
-///@desc Turn Preparation Start
+instance_create_depth(0,0,0,battle_bullet_pen);

@@ -10,7 +10,7 @@ _enemy[2]=noone;
 _enemy_name[0]="";
 _enemy_name[1]="";
 _enemy_name[2]="";
-//敌人可饶恕状态 это че
+//敌人可饶恕状态
 _enemy_spareable[0]=false;
 _enemy_spareable[1]=false;
 _enemy_spareable[2]=false;
