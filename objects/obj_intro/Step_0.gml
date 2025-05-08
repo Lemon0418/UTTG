@@ -14,7 +14,7 @@ if (Input_IsPressed(INPUT.CONFIRM) && pressed = false) {
 		alarm[0]=1;
 	}
 	else if (timer == 380){
-		if (image_index == 8) {
+		if (image_index == 10) {
 			visible = false;
 			instance_create_depth(160, 138, -80, obj_intro_last);
 			Anim_Create(obj_intro_last, "y", ANIM_TWEEN.LINEAR,ANIM_EASE.IN,obj_intro_last.y, 240, 600, 285);
@@ -25,7 +25,7 @@ if (Input_IsPressed(INPUT.CONFIRM) && pressed = false) {
 			image_index++;
 		}
 	}	
-	else if (timer == 1 && image_index < 7) {
+	else if (timer == 1 && image_index < 10) {
 		if !instance_exists(text_typer) t = instance_create_depth(60, 160, -100,text_typer);
 		t.text = text[image_index];
 	}

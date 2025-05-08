@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":42.666668,
+  "duration":48.0,
   "name":"mus_menu0",
   "parent":{
     "name":"BGM",
