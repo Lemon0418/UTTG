@@ -6,7 +6,7 @@
   "name":"CC_Add",
   "parent":{
     "name":"CC",
-    "path":"folders/Scripts/CC.yy",
+    "path":"folders/Scripts/CASTER/CC.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

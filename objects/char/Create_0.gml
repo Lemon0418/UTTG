@@ -17,10 +17,10 @@ walk_speed[DIR.DOWN]=2;
 walk_speed[DIR.LEFT]=2;
 walk_speed[DIR.RIGHT]=2;
 
-run_speed[DIR.UP]=4;
-run_speed[DIR.DOWN]=4;
-run_speed[DIR.LEFT]=4;
-run_speed[DIR.RIGHT]=4;
+run_speed[DIR.UP]=3;
+run_speed[DIR.DOWN]=3;
+run_speed[DIR.LEFT]=3;
+run_speed[DIR.RIGHT]=3;
 
 move[DIR.UP]=0;
 move[DIR.DOWN]=0;

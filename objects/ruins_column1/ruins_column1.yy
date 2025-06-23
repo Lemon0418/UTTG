@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ruins_column1",
-    "path":"sprites/spr_ruins_column1/spr_ruins_column1.yy",
+    "name":"spr_ruins_column",
+    "path":"sprites/spr_ruins_column/spr_ruins_column.yy",
   },
   "spriteMaskId":null,
   "visible":true,

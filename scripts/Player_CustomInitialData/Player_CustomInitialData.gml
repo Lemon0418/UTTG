@@ -1,5 +1,5 @@
 function Player_CustomInitialData(){
-	Player_SetName("PLAYER");
+	Player_SetName("EGGY");
 	Player_SetLv(1);
 	Player_SetHpMax(20);
 	Player_SetHp(20);
@@ -10,6 +10,8 @@ function Player_CustomInitialData(){
 	Player_SetBattleFightMenuObj(battle_menu_fight_knife);
 	
 	var items=Item_GetInventoryItems();
+	items.Add(ITEM_DICE);
+	items.Add(ITEM_BURNT_PAN);
 	
 	var phones=Item_GetInventoryPhones();
 	

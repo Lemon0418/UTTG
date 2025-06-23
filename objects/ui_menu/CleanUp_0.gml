@@ -10,9 +10,6 @@ if(instance_exists(_inst_item)){
 if(instance_exists(_inst_item_use)){
 	instance_destroy(_inst_item_use);
 }
-if(instance_exists(_inst_item_info)){
-	instance_destroy(_inst_item_info);
-}
 if(instance_exists(_inst_item_drop)){
 	instance_destroy(_inst_item_drop);
 }

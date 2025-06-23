@@ -13,7 +13,7 @@ repeat(4){
 		}else if(proc==DIR.LEFT || proc==DIR.RIGHT){
 			move_x=0.05*(proc==DIR.LEFT ? -1 : 1);
 		}
-		repeat(move_speed[proc]*20){
+		repeat((Input_IsHeld(INPUT.CANCEL) ? 3 : 2)*20){
 			cmove=true;
 			if(collision){
 				var list=_collision_list;
@@ -42,8 +42,7 @@ repeat(4){
 	}
 	proc+=90;
 }
-
-var refresh=((dir!=_dir_previous || talking!=_talking_previous || (move[dir]>0)!=(_move_previous>0)) && !res_override);
+var refresh=((dir!=_dir_previous || talking!=_talking_previous || (move[dir]>0)!=(_move_previous>0)) && !res_override && (x==xprevious || y==yprevious));
 if(refresh){
 	if(move[DIR.UP]>0 || move[DIR.DOWN]>0) || (move[DIR.LEFT]>0 || move[DIR.RIGHT]>0) {
 		sprite_index = (running==true ? res_run_sprite[dir] : res_move_sprite[dir]);

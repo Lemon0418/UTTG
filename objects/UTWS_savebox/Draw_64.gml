@@ -53,10 +53,10 @@ if (_time > 0) {
 		draw_text(x1+114, y1+72, "Press C to EDIT");
 	}
 	
-	draw_sprite_ext(spr_saveicon, 1, x1+4, y1+4, 1, 1, 0, _color, 1);
+	//draw_sprite_ext(spr_saveicon, 1, x1+4, y1+4, 1, 1, 0, _color, 1);
 }
 else {
 	draw_text(x1+220, y1+20, " --:--");
 	
-	draw_sprite_ext(spr_saveicon, 0, x1+4, y1+4, 1, 1, 0, _color, 1);
+	//draw_sprite_ext(spr_saveicon, 0, x1+4, y1+4, 1, 1, 0, _color, 1);
 }

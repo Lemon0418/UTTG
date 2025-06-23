@@ -19,20 +19,20 @@ function UTWS_player_load_character(){
 		break;
 		case 0:
 		//frisk
-			res_idle_sprite[DIR.UP]=spr_char_frisk_up;
-			res_idle_sprite[DIR.DOWN]=spr_char_frisk_down;
-			res_idle_sprite[DIR.LEFT]=spr_char_frisk_left;
-			res_idle_sprite[DIR.RIGHT]=spr_char_frisk_right;
+			res_idle_sprite[DIR.UP]=spr_char_goren_up_walk;
+			res_idle_sprite[DIR.DOWN]=spr_char_goren_down_walk;
+			res_idle_sprite[DIR.LEFT]=spr_char_goren_left_walk;
+			res_idle_sprite[DIR.RIGHT]=spr_char_goren_right_walk;
 
-			res_move_sprite[DIR.UP]=spr_char_frisk_up;
-			res_move_sprite[DIR.DOWN]=spr_char_frisk_down;
-			res_move_sprite[DIR.LEFT]=spr_char_frisk_left;
-			res_move_sprite[DIR.RIGHT]=spr_char_frisk_right;
+			res_move_sprite[DIR.UP]=spr_char_goren_up_walk;
+			res_move_sprite[DIR.DOWN]=spr_char_goren_down_walk;
+			res_move_sprite[DIR.LEFT]=spr_char_goren_left_walk;
+			res_move_sprite[DIR.RIGHT]=spr_char_goren_right_walk;
 
-			res_run_sprite[DIR.UP]=spr_char_frisk_up;
-			res_run_sprite[DIR.DOWN]=spr_char_frisk_down;
-			res_run_sprite[DIR.LEFT]=spr_char_frisk_left;
-			res_run_sprite[DIR.RIGHT]=spr_char_frisk_right;
+			res_run_sprite[DIR.UP]=spr_char_goren_up_walk;
+			res_run_sprite[DIR.DOWN]=spr_char_goren_down_walk;
+			res_run_sprite[DIR.LEFT]=spr_char_goren_left_walk;
+			res_run_sprite[DIR.RIGHT]=spr_char_goren_right_walk;
 		break;
 		case 1:
 		//eggy

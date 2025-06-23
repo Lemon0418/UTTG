@@ -29,3 +29,19 @@ _moveable_save=true;
 _moveable_warp=true;
 _moveable_encounter=true;
 _moveable_box=true;
+
+grid_size = 16;          
+move_speed = 3;          
+standup_speed = 0.3;     
+
+// Состояния персонажа
+enum player_state {
+    IDLE,        
+    WALKING,    
+    STANDING_UP  
+}
+state = player_state.IDLE;
+
+// Анимация
+standup_frame = 0;
+standup_frames_max = 4; 

@@ -1,4 +1,4 @@
-if(_menu==1){
+if(_menu==1||_menu==2){
 	if(!instance_exists(_inst_item)){
 		_inst_item=instance_create_depth(188+6+38,52+6+22,0,text_typer);
 		_inst_item.text=_prefix;
@@ -14,31 +14,21 @@ if(_menu==1){
 		_inst_item_use=instance_create_depth(188+6+38,52+6+302,0,text_typer);
 		_inst_item_use.text=_prefix+get_translate(global.translate_grid, "menu.use");
 	}
-	if(!instance_exists(_inst_item_info)){
-		_inst_item_info=instance_create_depth(188+6+134,52+6+302,0,text_typer);
-		_inst_item_info.text=_prefix+get_translate(global.translate_grid, "menu.info");
-	}
 	if(!instance_exists(_inst_item_drop)){
-		_inst_item_drop=instance_create_depth(188+6+248,52+6+302,0,text_typer);
+		_inst_item_drop=instance_create_depth(188+6+134,52+6+302,0,text_typer);
 		_inst_item_drop.text=_prefix+get_translate(global.translate_grid, "menu.drop");
 	}
 }else{
-	if(_menu!=2){
 		if(instance_exists(_inst_item)){
 			instance_destroy(_inst_item);
 		}
 		if(instance_exists(_inst_item_use)){
 			instance_destroy(_inst_item_use);
 		}
-		if(instance_exists(_inst_item_info)){
-			instance_destroy(_inst_item_info);
-		}
-		if(instance_exists(_inst_item_drop)){
+	    if(instance_exists(_inst_item_drop)){
 			instance_destroy(_inst_item_drop);
 		}
 	}
-}
-
 if(_menu==3){
 	if(!instance_exists(_inst_stat_0)){
 		_inst_stat_0=instance_create_depth(188+6+22,52+6+24,0,text_typer);
@@ -55,11 +45,11 @@ if(_menu==3){
 		var weapon = "";
 		var armor = "";
 		switch(global.weapon) {
-			case 47: weapon = "Burnt Pan";
+			case 47: weapon = get_translate(global.translate_grid, "menu.eggy2")
 			break;
 		}
 		switch(global.armor) {
-			case 46: armor = "Stained Apron";
+			case 46: armor = get_translate(global.translate_grid, "menu.eggy1")
 			break;
 		}
 		//var armor=itemTypeManager.GetNameOrFallback(Player_GetItemArmor());

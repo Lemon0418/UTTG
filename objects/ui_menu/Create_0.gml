@@ -35,3 +35,5 @@ hasPhone = false
 _inst_menu.text=_prefix+"{space_y 2}"+(!hasItem ? "{color_text `gray`}" : "")+get_translate(global.translate_grid, "menu.item")+(!hasItem ? "{color_text `white`}" : "")+"&"+get_translate(global.translate_grid, "menu.stat");
 
 audio_play_sound(snd_menu_switch,0,false);
+_color=c_white;
+_id = 0;

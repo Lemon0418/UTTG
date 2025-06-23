@@ -73,7 +73,7 @@ if(_menu==-1){
 			audio_play_sound(snd_menu_switch,0,false);
 		}
 	}else if(Input_IsPressed(INPUT.RIGHT)){
-		if(_choice_item_operate<2){
+		if(_choice_item_operate<1){
 			_choice_item_operate+=1;
 			audio_play_sound(snd_menu_switch,0,false);
 		}
@@ -87,9 +87,6 @@ if(_menu==-1){
 				items.InvokeItemUse(_choice_item);
 				break;
 			case 1:
-				items.InvokeItemInfo(_choice_item);
-				break;
-			case 2:
 				items.InvokeItemDrop(_choice_item);
 				break;
 		}

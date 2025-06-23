@@ -40,5 +40,4 @@ if(can_move){
 		}
 	}
 }
-
 event_inherited();
