@@ -11,25 +11,29 @@ switch(room){
 		sound = mus_menu0;
 	break;
 	case room_ruins1:
-		soundstop = [mus_menu0,mus_settings,snd_cymbal,bgm_star]
+		soundstop = [mus_menu0,mus_settings,snd_cymbal,bgm_star,battle_theme]
 		sound = mus_ruins;
 	break;
 	case room_area1:
-		soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins]
+		soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins,battle_theme]
 		sound = bgm_star;
 	break;
 	case room_area2:
-		soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins,bgm_star]
+		soundstop = [mus_menu0,mus_settings,snd_cymbal,mus_ruins,bgm_star,battle_theme]
 	break;
 	case room_credits:
-		soundstop = [mus_ruins]
+		soundstop = [mus_ruins,battle_theme]
 	break;
 	case room_pre_sewers:
-		soundstop = [mus_ruins,bgm_star]
+		soundstop = [mus_ruins,bgm_star,battle_theme]
 	break;
 	case room_ruins2:
-	    soundstop = [bgm_star]
+	    soundstop = [bgm_star,battle_theme]
 		sound = mus_ruins;
+	break;
+	case room_battle:
+	soundstop = [mus_ruins]
+	sound = battle_theme;
 	break;
 }
 

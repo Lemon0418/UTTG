@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_sewers_tile",
   "bboxMode":0,
-  "bbox_bottom":359,
+  "bbox_bottom":219,
   "bbox_left":0,
-  "bbox_right":408,
+  "bbox_right":179,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"89f36fed-b167-4da3-a63f-b2254b0a09b8","name":"89f36fed-b167-4da3-a63f-b2254b0a09b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9b554d32-a8c2-4266-a836-e9e2738446f8","name":"9b554d32-a8c2-4266-a836-e9e2738446f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
-  "height":360,
+  "gridX":20,
+  "gridY":20,
+  "height":220,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"108bb688-02f6-4f11-8c0e-95b11aaf0910","blendMode":0,"displayName":"default","isLocked":false,"name":"108bb688-02f6-4f11-8c0e-95b11aaf0910","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"801bfc93-a415-49d4-9668-f5edb0ccd461","blendMode":0,"displayName":"default","isLocked":false,"name":"801bfc93-a415-49d4-9668-f5edb0ccd461","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_sewers_tile",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89f36fed-b167-4da3-a63f-b2254b0a09b8","path":"sprites/spr_sewers_tile/spr_sewers_tile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"48cab1c5-21f0-4f16-9d1c-bf8ddcee1348","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b554d32-a8c2-4266-a836-e9e2738446f8","path":"sprites/spr_sewers_tile/spr_sewers_tile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"76fcbc03-228c-49be-8f87-c10f072d704f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":440,
+  "width":180,
 }

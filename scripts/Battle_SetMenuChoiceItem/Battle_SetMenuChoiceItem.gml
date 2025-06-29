@@ -35,13 +35,13 @@ function Battle_SetMenuChoiceItem() {
 	}else{
 		return false;
 	}*/
+	var items
 	var SLOT=argument[0];
     var CALL=true;
     if(argument_count>=2){
         CALL=argument[1];
     }
-
-    if(SLOT<Item_GetNumber()){
+    if(SLOT<Item_GetInventoryItems()){	
         battle._menu_choice_item=SLOT;
         while(SLOT>=battle._menu_choice_item_first+4){
             battle._menu_choice_item_first+=4;
@@ -50,7 +50,7 @@ function Battle_SetMenuChoiceItem() {
             battle._menu_choice_item_first-=4;
         }
     
-        //更新文字
+        //更新文字 СУКА ЕБУЧИЙ КИТАЙСКИЙ
         var text="";
         var text2="";
         var proc=battle._menu_choice_item_first;

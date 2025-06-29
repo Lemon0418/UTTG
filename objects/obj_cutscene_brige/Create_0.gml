@@ -1,0 +1,9 @@
+image_speed=0;
+char_player.visible=0
+char_player._moveable_dialog = false;
+alarm[0] = 60;
+start_y = y
+sound = noone;
+alarm[2]=240
+fade_in_time=20;
+fade_in_color=c_black;
