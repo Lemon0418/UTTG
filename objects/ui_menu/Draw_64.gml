@@ -1,44 +1,14 @@
-draw_sprite_ext(spr_pixel,0,32,52+(_top ? 272 : 0),142,6,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,30,52+(_top ? 270 : 0),146,2,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32,52+6+(_top ? 270 : 0),142,2,0,c_black,1);
-  
-draw_sprite_ext(spr_pixel,0,32,52+106+(_top ? 270 : 0),142,4,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32,52+106+(_top ? 270 : 0),142,-2,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,30,52+106+6+(_top ? 270 : 0),146,-2,0,c_black,1);
- 
-draw_sprite_ext(spr_pixel,0,32,54+(_top ? 270 : 0),4,108,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32-2,54+(_top ? 270 : 0),2,108,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32+4,58+(_top ? 270 : 0),2,100,0,c_black,1);
-  
-draw_sprite_ext(spr_pixel,0,32+142,54+(_top ? 270 : 0),-4,108,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32+142+2,54+(_top ? 270 : 0),-2,108,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32+142-4,58+(_top ? 270 : 0),-2,100,0,c_black,1);
-   
-draw_sprite_ext(spr_pixel,0, 32+6, 52+6+(_top ? 270 : 0), 142-6*2, 110-6*2,0,c_black,0.75);
-
-draw_sprite_ext(spr_pixel,0,32,168,142,4,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32,168-2,142,2,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32,168+4,142,2,0,c_black,1);
-
-draw_sprite_ext(spr_pixel,0,32,/**/142+148,142,4,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32,/**/144+144,142,2,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32,/**/142+152,142,2,0,c_black,1);
- 
-draw_sprite_ext(spr_pixel,0,32,168,4,/**/124,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32-2,168-2,2,/**/130,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32+4,168+4,2,/**/118,0,c_black,1);
-  
-draw_sprite_ext(spr_pixel,0,32+138,168,4,/**/124,0,c_white,1);
-draw_sprite_ext(spr_pixel,0,32+138+4,168-2,2,/**/130,0,c_black,1);
-draw_sprite_ext(spr_pixel,0,32+138-2,168+4,2,/**/118,0,c_black,1);
-draw_sprite_ext(spr_pixel,0, 32+6, 168+6, 142-6*2, 128-6*2/**/, 0, c_black,0.75);
-/* а где это окно котрое менять надо короче я хз где что менять
-вопрос в том где здэс само окно */
-draw_set_font(fnt_small);
-draw_set_color(c_white);
-if (global.language == 2) draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"LV  "+string(Player_GetLv())+"\nHP  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nG   "+string(Player_GetGold()),9,-1,2,2,0);
-else if (global.language == 1) draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"УР  "+string(Player_GetLv())+"\nОЗ  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nМ   "+string(Player_GetGold()),9,-1,2,2,0);
-
+var xx = 52;
+var yy = 52;
+draw_sprite_ext(spr_dialoguebox, 0, xx, yy, 1, 0.75, image_angle, image_blend, 0.75);
+scr_textbox(xx - 35, yy - 27, 83, 78);
+var bbox_yscale = 1.25;
+var bbox_yoffset = 70;
+var bbox_yscale_multiplier = selection_max - 3;
+bbox_yscale += (0.3 * bbox_yscale_multiplier);
+bbox_yoffset += (9.6 * bbox_yscale_multiplier);
+draw_sprite_ext(spr_dialoguebox, 0, xx, yy + bbox_yoffset, 2, bbox_yscale - 0.1, image_angle, image_blend, 0.75);
+scr_textbox(xx - 35, yy + 31, 85, 161);
 if(_menu==0){
   draw_sprite(spr_battle_soul_red,0,32+6+27,168+6+31+36*_choice);
 }

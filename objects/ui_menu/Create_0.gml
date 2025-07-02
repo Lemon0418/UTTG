@@ -37,3 +37,4 @@ _inst_menu.text=_prefix+"{space_y 2}"+(!hasItem ? "{color_text `gray`}" : "")+ge
 audio_play_sound(snd_menu_switch,0,false);
 _color=c_white;
 _id = 0;
+selection_max = 3;

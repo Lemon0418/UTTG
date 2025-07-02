@@ -3,6 +3,10 @@ if(_menu==1||_menu==2){
 		_inst_item=instance_create_depth(188+6+38,52+6+22,0,text_typer);
 		_inst_item.text=_prefix;
 		
+        draw_set_font(fnt_small);
+        draw_set_color(c_white);
+        if (global.language == 2) draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"LV  "+string(Player_GetLv())+"\nHP  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nG   "+string(Player_GetGold()),9,-1,2,2,0);
+        else if (global.language == 1) draw_text_ext_transformed(32+6+8,52+(_top ? 270 : 0)+6+42,"УР  "+string(Player_GetLv())+"\nОЗ  "+string(Player_GetHp())+"/"+string(Player_GetHpMax())+"\nМ   "+string(Player_GetGold()),9,-1,2,2,0);
 		var proc=0;
 		var items=Item_GetInventoryItems();
 		repeat(items.GetCount()){

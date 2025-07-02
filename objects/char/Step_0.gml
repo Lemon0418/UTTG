@@ -1,6 +1,4 @@
 var proc=0;
-//cmove = true;
-
 repeat(4){
 	if(move[proc]>0){
 		if(!dir_locked){
@@ -42,7 +40,7 @@ repeat(4){
 	}
 	proc+=90;
 }
-var refresh=((dir!=_dir_previous || talking!=_talking_previous || (move[dir]>0)!=(_move_previous>0)) && !res_override && (x==xprevious || y==yprevious));
+var refresh=((dir!=_dir_previous || talking!=_talking_previous || (move[dir]>0)!=(_move_previous>0)) && !res_override);
 if(refresh){
 	if(move[DIR.UP]>0 || move[DIR.DOWN]>0) || (move[DIR.LEFT]>0 || move[DIR.RIGHT]>0) {
 		sprite_index = (running==true ? res_run_sprite[dir] : res_move_sprite[dir]);
@@ -57,8 +55,7 @@ if(refresh){
 		image_index = res_idle_image[dir];
 		image_speed = res_idle_speed[dir];
 	}
-}else sprite_index = (running==true && ((move[DIR.UP]>0 || move[DIR.DOWN]>0) || (move[DIR.LEFT]>0 || move[DIR.RIGHT]>0)) ? res_run_sprite[dir] : res_move_sprite[dir]);
-
+}else sprite_index = (running==true && ((move[DIR.UP]>0 || move[DIR.DOWN]>0) || (move[DIR.LEFT]>0 || move[DIR.RIGHT]>0)) ? res_run_sprite[dir] : res_move_sprite[dir]); 
 _talking_previous=talking;
 _dir_previous=dir;
 _move_previous=move[dir];
